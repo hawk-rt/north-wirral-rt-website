@@ -13,7 +13,6 @@
     <body class="d-flex flex-column h-100">
         <main class="flex-shrink-0">
             @include('_partials.navigation')
-            @include('_partials.header')
             @yield('body')
             @include('_partials.footer')
         </main>

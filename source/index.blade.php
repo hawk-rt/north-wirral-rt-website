@@ -1,9 +1,14 @@
 @extends('_layouts.main')
 
 @section('body')
+    @include('_partials.header')
     <!-- Features section-->
     <section class="py-5" id="features">
         <div class="container px-5 my-5">
+            <!-- Call to Action-->
+            <div class="card text-white bg-secondary my-5 py-4 text-center">
+                <div class="card-body"><p class="text-white m-0">This call to action card is a great place to showcase some important information or display a clever tagline!</p></div>
+            </div>
             <div class="row gx-5">
                 <div class="col-lg-4 mb-5 mb-lg-0"><h2 class="fw-bolder mb-0">A better way to start building.</h2></div>
                 <div class="col-lg-8">
