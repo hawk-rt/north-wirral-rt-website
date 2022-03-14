@@ -4,38 +4,40 @@
     @include('_partials.masthead')
     <div class="py-5">
         <div class="container px-5">
-            <!-- Call to Action-->
-            <div class="card text-dark bg-primary bg-gradient mt-5 py-4 text-center">
-                <div class="card-body"><p class="text-white m-0 fs-3 fw-bold">We are an open group and we are actively seeking new members. <br /> Why not <a class="link-light" href="/join-us">join us</a> or find out <a class="link-light" href="/about">more about us</a>?</p></div>
-            </div>
+            <!-- Call to action-->
+            <aside class="bg-primary bg-gradient rounded-3 p-4 p-sm-5 mt-5">
+                <div class="mb-4 mb-xl-0 text-center">
+                    <p class="text-white m-0 fs-3 fw-bold">Are you local? We are actively seeking new members.<br /> Why not <a class="link-light" href="/join-us">join us</a> or find out <a class="link-light" href="/about">more about us</a>?</p>
+                </div>
+            </aside>
         </div>
     </div>
     <!-- Features section-->
     <section class="py-5" id="features">
         <div class="container px-5 my-5">
             <div class="row gx-5">
-                <div class="col-lg-4 mb-5 mb-lg-0"><h2 class="fw-bolder mb-0">A better way to start building.</h2></div>
+                <div class="col-lg-4 mb-5 mb-lg-0"><h2 class="fw-bolder mb-0">A world of opportunities awaits.</h2></div>
                 <div class="col-lg-8">
                     <div class="row gx-5 row-cols-1 row-cols-md-2">
                         <div class="col mb-5 h-100">
-                            <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3"><i class="bi bi-collection"></i></div>
-                            <h2 class="h5">Featured title</h2>
-                            <p class="mb-0">Paragraph of text beneath the heading to explain the heading. Here is just a bit more text.</p>
+                            <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3"><i class="bi bi-emoji-laughing"></i></div>
+                            <h2 class="h5">Have fun, experience great things</h2>
+                            <p class="mb-0">We have an action packed calendar of activities throughout the year. From go-karting to hill walking, to comedy nights, bowling, shooting and more. There is something for everyone.</p>
                         </div>
                         <div class="col mb-5 h-100">
-                            <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3"><i class="bi bi-building"></i></div>
-                            <h2 class="h5">Featured title</h2>
-                            <p class="mb-0">Paragraph of text beneath the heading to explain the heading. Here is just a bit more text.</p>
+                            <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3"><i class="bi bi-house-heart"></i></div>
+                            <h2 class="h5">Make a difference in your community</h2>
+                            <p class="mb-0">As well as having fun, community is at the heart of what we do. Among other things we collect donations with our famous Santa Sleigh and donate to many local good causes.</p>
                         </div>
                         <div class="col mb-5 mb-md-0 h-100">
-                            <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3"><i class="bi bi-toggles2"></i></div>
-                            <h2 class="h5">Featured title</h2>
-                            <p class="mb-0">Paragraph of text beneath the heading to explain the heading. Here is just a bit more text.</p>
+                            <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3"><i class="bi bi-people"></i></div>
+                            <h2 class="h5">Meet like-minded people</h2>
+                            <p class="mb-0">The Round Table is a great way to meet like-minded people of a similar age and make amazing new friendships. It's a supportive and friendly group where everyone looks out for each other.</p>
                         </div>
                         <div class="col h-100">
-                            <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3"><i class="bi bi-toggles2"></i></div>
-                            <h2 class="h5">Featured title</h2>
-                            <p class="mb-0">Paragraph of text beneath the heading to explain the heading. Here is just a bit more text.</p>
+                            <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3"><i class="bi bi-incognito"></i></div>
+                            <h2 class="h5">No secrets or funny handshakes</h2>
+                            <p class="mb-0">There are no secrets, funny handshakes or trouser leg rolling - we are not that kind of club! We are an open and transparent organisation. Everyone is welcome!</p>
                         </div>
                     </div>
                 </div>
@@ -48,9 +50,9 @@
             <div class="row gx-5 justify-content-center">
                 <div class="col-lg-10 col-xl-7">
                     <div class="text-center">
-                        <div class="fs-4 mb-4 fst-italic">"Round Table helped me meet others in my town that wanted to do something in the community whilst having great fun doing it!  Whether it’s taking Santa around the area to raise thousands of pounds every year or a social night when we come up with ideas of how to work together and support each other, it’s a chance to make new friendships that will last a lifetime. I can truly say that Round Table has transformed my life!"</div>
+                        <div class="fs-4 mb-4 fst-italic">"Round Table helped me meet others in my town that wanted to do something in the community whilst having great fun doing it!  I can truly say that Round Table has transformed my life!"</div>
                         <div class="d-flex align-items-center justify-content-center">
-                            <img class="rounded-circle me-3" src="https://dummyimage.com/40x40/ced4da/6c757d" alt="..." />
+                            <img class="rounded-circle me-3" src="/assets/images/faces/derek.png" alt="Derek Collie" width="40" />
                             <div class="fw-bold">
                                 Derek Collie
                                 <span class="fw-bold text-primary mx-1">/</span>
@@ -140,18 +142,8 @@
             </div>
             <!-- Call to action-->
             <aside class="bg-primary bg-gradient rounded-3 p-4 p-sm-5 mt-5">
-                <div class="d-flex align-items-center justify-content-between flex-column flex-xl-row text-center text-xl-start">
-                    <div class="mb-4 mb-xl-0">
-                        <div class="fs-3 fw-bold text-white">New products, delivered to you.</div>
-                        <div class="text-white-50">Sign up for our newsletter for the latest updates.</div>
-                    </div>
-                    <div class="ms-xl-4">
-                        <div class="input-group mb-2">
-                            <input class="form-control" type="text" placeholder="Email address..." aria-label="Email address..." aria-describedby="button-newsletter" />
-                            <button class="btn btn-outline-light" id="button-newsletter" type="button">Sign up</button>
-                        </div>
-                        <div class="small text-white-50">We care about privacy, and will never share your data.</div>
-                    </div>
+                <div class="mb-4 mb-xl-0 text-center">
+                    <p class="text-white m-0 fs-3 fw-bold">Are you local? We are actively seeking new members.<br /> Why not <a class="link-light" href="/join-us">join us</a> or find out <a class="link-light" href="/about">more about us</a>?</p>
                 </div>
             </aside>
         </div>
