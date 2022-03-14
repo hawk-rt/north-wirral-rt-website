@@ -1,8 +1,25 @@
 @extends('_layouts.main')
 
 @section('body')
-    @include('_partials.masthead')
-    <div class="py-5">
+    <!-- Header-->
+    <header class="bg-light py-5">
+        <div class="container px-5">
+            <div class="row gx-5 align-items-center justify-content-center">
+                <div class="col-lg-8 col-xl-7 col-xxl-6">
+                    <div class="my-5 text-center text-xl-start">
+                        <h1 class="display-5 fw-bolder mb-2">Hoylake and West Kirby Round Table</h1>
+                        <p class="lead fw-normal mb-4">We are your local community group for men aged 18-45. We organise social events and activities, fundraise in the community and support local causes.</p>
+                        <div class="d-grid gap-3 d-sm-flex justify-content-sm-center justify-content-xl-start">
+                            <a class="btn btn-primary btn-lg px-4 me-sm-3" href="/join-us">Join Us</a>
+                            <a class="btn btn-outline-dark btn-lg px-4" href="#features">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-5 col-xxl-6 d-block text-center"><img class="img-fluid rounded-3 my-5" src="/assets/images/do-more.jpg" alt="..." /></div>
+            </div>
+        </div>
+    </header>
+    <section class="py-5"">
         <div class="container px-5">
             <!-- Call to action-->
             <aside class="bg-primary bg-gradient rounded-3 p-4 p-sm-5 mt-5">
@@ -11,7 +28,7 @@
                 </div>
             </aside>
         </div>
-    </div>
+    </section>
     <!-- Features section-->
     <section class="py-5" id="features">
         <div class="container px-5 my-5">
@@ -32,7 +49,7 @@
                         <div class="col mb-5 mb-md-0 h-100">
                             <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3"><i class="bi bi-people"></i></div>
                             <h2 class="h5">Meet like-minded people</h2>
-                            <p class="mb-0">The Round Table is a great way to meet like-minded people of a similar age and make amazing new friendships. It's a supportive and friendly group where everyone looks out for each other.</p>
+                            <p class="mb-0">The Round Table is a great way to meet like-minded people of a similar age and make amazing new friendships. We're a supportive and friendly group where everyone looks out for each other.</p>
                         </div>
                         <div class="col h-100">
                             <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3"><i class="bi bi-incognito"></i></div>
