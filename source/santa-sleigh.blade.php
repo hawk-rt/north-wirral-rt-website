@@ -7,8 +7,8 @@
             <div class="row justify-content-center">
                 <div class="col-lg-8">
                     <div class="text-center my-5">
-                        <h1 class="fw-bolder mb-3">Our famous Santa Sleigh, a magical experience for young kids</h1>
-                        <p class="lead fw-normal text-muted mb-4">Every year we bring Santa to the streets of West Kirby, Hoylake, Meols, and Saughall Massey to raise money for good causes and to bring a smile to the faces of the young children in our community.</p>
+                        <h1 class="fw-bolder mb-3">Our famous Santa Sleigh, a magical experience for everyone to enjoy</h1>
+                        <p class="lead fw-normal text-muted mb-4">Every year we bring Santa to the streets of Greasby, Hoylake, Newton, Meols, and West Kirby to raise money for good causes and to bring a smile to the faces of the young children in our community.</p>
                         <p class="lead fw-normal text-muted mb-4">This is always a really special event for us. We love to see the community out on the streets and sharing this magical experience.</p>
                     </div>
                 </div>
@@ -22,16 +22,16 @@
                 <div class="col-lg-8 col-xl-6">
                     <div class="text-center">
                         <h2 class="fw-bolder">Santa's routes</h2>
-                        <p class="lead fw-normal text-muted mb-5">Santa is taking a break right now but below are the routes that Santa will be taking at Christmas 2022.</p>
-                        <p class="lead fw-normal text-muted mb-5">Please note these are subject to change so keep an eye on our Facebook page for any updates!</p>
+                        <p class="lead fw-normal text-muted mb-5">Santa is taking a break right now but below are the routes that Santa will be taking at Christmas in 2022.</p>
+                        <p class="lead fw-normal text-muted mb-5">Please note these routes are subject to change so keep an eye on our Facebook page for any updates!</p>
                     </div>
                 </div>
             </div>
             <div class="row gx-5">
-                @foreach($routes as $route)
+                @foreach($santaRoutes as $route)
                     <div class="col-lg-4 mb-5">
                         <div class="card h-100 shadow border-0">
-                            <img class="card-img-top" src="https://dummyimage.com/600x350/ced4da/6c757d" alt="..." />
+                            <img class="card-img-top" src="/assets/images/santa-routes/{{ $route->image }}" alt="..." />
                             <div class="card-body p-4">
                                 @if ($route->pill)
                                 <div class="badge bg-primary bg-gradient rounded-pill mb-2">{{ $route->pill }}</div>
