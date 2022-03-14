@@ -2,14 +2,37 @@
 
 @section('body')
     <!-- Header-->
-    <header class="py-5 bg-light">
+    <header class="bg-light py-5">
         <div class="container px-5">
-            <div class="row justify-content-center">
-                <div class="col-lg-8">
-                    <div class="text-center my-5">
-                        <h1 class="fw-bolder mb-3">Do you want to have fun, build lifelong friendships and meet like-minded men from your community?</h1>
+            <div class="row gx-5 align-items-center justify-content-center">
+                <div class="col-lg-8 col-xl-7 col-xxl-6">
+                    <div class="my-5 text-center text-xl-start">
+                        <h1 class="fw-bolder mb-2">Do you want to have fun, build lifelong friendships and meet like-minded men from your community?</h1>
                         <p class="lead fw-normal text-muted mb-4">If the answer to these questions is YES, then Round Table is the perfect place for you.</p>
-                        <a class="btn btn-primary btn-lg" href="#features">Read on</a>
+                        <div class="d-grid gap-3 d-sm-flex justify-content-sm-center justify-content-xl-start">
+                            <a class="btn btn-primary btn-lg" href="#features">Read on</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-5 col-xxl-6 d-block text-center">
+                    <div id="carouselHeader" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000" data-bs-ride="carousel" data-bs-pause="false">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="/assets/images/photos/shuffleboard-600x400.jpg" class="d-block w-100 rounded-3" alt="Shuffleboard">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="/assets/images/photos/axe-throwing-600x400.jpg" class="d-block w-100 rounded-3" alt="Shuffleboard">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="/assets/images/photos/dingy-600x400.jpg" class="d-block w-100 rounded-3" alt="Dingy Rafting">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="/assets/images/photos/tractor-push-600x400.jpg" class="d-block w-100 rounded-3" alt="Tractor Push">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="/assets/images/photos/shooting-600x400.jpg" class="d-block w-100 rounded-3" alt="Clay Pigeon Shooting">
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -53,7 +76,7 @@
             <div class="row gx-5 justify-content-center">
                 <div class="col-lg-10 col-xl-7">
                     <div class="text-center">
-                        <div class="fs-4 mb-4 fst-italic">"Round Table helped me meet others in my town that wanted to do something in the community whilst having great fun doing it!  I can truly say that Round Table has transformed my life!"</div>
+                        <div class="fs-4 mb-4 fst-italic">"Round Table helped me meet others in my town that wanted to do something in the community whilst having great fun doing it! I can truly say that Round Table has transformed my life!"</div>
                         <div class="d-flex align-items-center justify-content-center">
                             <img class="rounded-circle me-3" src="/assets/images/faces/derek.png" alt="Derek Collie" width="40" />
                             <div class="fw-bold">
@@ -70,12 +93,12 @@
     <section class="bg-white py-5">
         <div class="container px-5">
             <div class="row gx-5 align-items-center justify-content-center">
-                <div class="col-xl-5 col-xxl-6 d-block text-center"><img class="img-fluid rounded-3 my-5" src="/assets/images/photos/walk-2000-1.jpg" alt="HaWK Round Table Walk Summer 2020" /></div>
+                <div class="col-xl-5 col-xxl-6 d-block text-center"><img class="img-fluid rounded-3 my-5" src="/assets/images/photos/walk-2020-1-600x400.jpg" alt="HaWK Round Table Walk Summer 2020" /></div>
                 <div class="col-lg-8 col-xl-7 col-xxl-6">
                     <div class="my-5 text-center text-xl-start">
                         <h4 class="fw-bolder mb-2">Becoming a member of HaWK Round Table couldn't be easier</h4>
-                        <p class="lead fw-normal text-muted mb-4">You don't have to join straight away. Come to a few events, meet the people, relax and have a chat about what is going on this year and then make your decision. There is no pressure to join.</p>
-                        <p class="lead fw-normal text-muted mb-4">If you do join there is no pressure to attend events and meetings. We all have other commitments that often mean we cannot attend get togethers. That is absolutely fine. Round Table is a way to unwind and forget other pressures, not to give anyone more stress.</p>
+                        <p class="lead fw-normal text-muted mb-4">You don't have to join straight away. Come to a few events, meet the people, relax and have a chat about what is going on this year and then make your decision.</p>
+                        <p class="lead fw-normal text-muted mb-4">There is no pressure to join and if you do join there is no pressure to attend events and meetings. We all have other commitments that often mean we cannot attend get togethers. That is absolutely fine. Round Table is a way to unwind and forget other pressures, not to give anyone more stress.</p>
                         <p class="lead fw-normal mb-4">So, give us a call or send us a message. We look forward to seeing you soon.</p>
                         <div class="d-grid gap-3 d-sm-flex justify-content-sm-center justify-content-xl-start">
                             <a class="btn btn-primary btn-lg px-4 me-sm-3" href="/contact">Get in touch</a>

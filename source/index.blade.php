@@ -11,7 +11,7 @@
                         <p class="lead fw-normal mb-4">We are your local community group for men aged 18-45. We organise social events and activities, fundraise in the community and support local causes.</p>
                         <div class="d-grid gap-3 d-sm-flex justify-content-sm-center justify-content-xl-start">
                             <a class="btn btn-primary btn-lg px-4 me-sm-3" href="/join-us">Join Us</a>
-                            <a class="btn btn-outline-dark btn-lg px-4" href="#features">Learn More</a>
+                            <a class="btn btn-outline-dark btn-lg px-4" href="#start">Learn More</a>
                         </div>
                     </div>
                 </div>
@@ -19,96 +19,74 @@
             </div>
         </div>
     </header>
-    <section class="py-5"">
+    <section class="py-5">
         <div class="container px-5">
             <!-- Call to action-->
-            <aside class="bg-primary bg-gradient rounded-3 p-4 p-sm-5 mt-5">
+            <aside class="bg-primary bg-gradient rounded-3 p-4 p-sm-5">
                 <div class="mb-4 mb-xl-0 text-center">
-                    <p class="text-white m-0 fs-3 fw-bold">Are you local? We are actively seeking new members.<br /> Why not <a class="link-light" href="/join-us">join us</a> or find out <a class="link-light" href="/about">more about us</a>?</p>
+                    <p class="text-dark m-0 fs-3 fw-bold">We are actively seeking new members.<br /> Why not <a class="link-dark" href="/join-us">join us</a> or find out <a class="link-dark" href="/about">more about us</a>?</p>
                 </div>
             </aside>
         </div>
     </section>
-    <!-- Blog preview section-->
+    <!-- Section one-->
+    <section class="py-5 bg-light" id="start">
+        <div class="container px-5 my-5">
+            <div class="row gx-5 align-items-center">
+                <div class="col-lg-6"><img class="img-fluid rounded mb-5 mb-lg-0" src="/assets/images/photos/walk-2020-600x400.jpg" alt="..." /></div>
+                <div class="col-lg-6">
+                    <h2 class="fw-bolder">About us</h2>
+                    <p class="lead fw-normal text-muted mb-4">Hoylake and West Kirby Round Table is your local branch of this national organisation, which fundraises for local good causes. We are a group of young men aged 18-45 in the Hoylake and West Kirby area of Wirral. As well as fundraising and helping the local community we meet regularly for social events and activities.</p>
+                    <a class="btn btn-primary btn-lg px-4 me-sm-3" href="/about">More about us</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Section two-->
     <section class="py-5">
         <div class="container px-5 my-5">
-            <div class="row gx-5 justify-content-center">
-                <div class="col-lg-8 col-xl-6">
-                    <div class="text-center">
-                        <h2 class="fw-bolder">From our blog</h2>
-                        <p class="lead fw-normal text-muted mb-5">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eaque fugit ratione dicta mollitia. Officiis ad.</p>
-                    </div>
+            <div class="row gx-5 align-items-center">
+                <div class="col-lg-6 order-first order-lg-last"><img class="img-fluid rounded mb-5 mb-lg-0" src="/assets/images/photos/axe-throwing-600x400.jpg" alt="..." /></div>
+                <div class="col-lg-6">
+                    <h2 class="fw-bolder">Join us</h2>
+                    <p class="lead fw-normal text-muted mb-4">We are an open organisation that always welcomes new members from all walks of life. If you are a male aged 18-45 in the Hoylake and West Kirby area then why not find out more about what we're about? It could be the best decision you make today!</p>
+                    <a class="btn btn-primary btn-lg px-4 me-sm-3" href="/join-us">Learn more</a>
                 </div>
             </div>
-            <div class="row gx-5">
-                <div class="col-lg-4 mb-5">
-                    <div class="card h-100 shadow border-0">
-                        <img class="card-img-top" src="https://dummyimage.com/600x350/ced4da/6c757d" alt="..." />
-                        <div class="card-body p-4">
-                            <div class="badge bg-primary bg-gradient rounded-pill mb-2">News</div>
-                            <a class="text-decoration-none link-dark stretched-link" href="#!"><h5 class="card-title mb-3">Blog post title</h5></a>
-                            <p class="card-text mb-0">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        </div>
-                        <div class="card-footer p-4 pt-0 bg-transparent border-top-0">
-                            <div class="d-flex align-items-end justify-content-between">
-                                <div class="d-flex align-items-center">
-                                    <img class="rounded-circle me-3" src="https://dummyimage.com/40x40/ced4da/6c757d" alt="..." />
-                                    <div class="small">
-                                        <div class="fw-bold">Kelly Rowan</div>
-                                        <div class="text-muted">March 12, 2021 &middot; 6 min read</div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 mb-5">
-                    <div class="card h-100 shadow border-0">
-                        <img class="card-img-top" src="https://dummyimage.com/600x350/adb5bd/495057" alt="..." />
-                        <div class="card-body p-4">
-                            <div class="badge bg-primary bg-gradient rounded-pill mb-2">Media</div>
-                            <a class="text-decoration-none link-dark stretched-link" href="#!"><h5 class="card-title mb-3">Another blog post title</h5></a>
-                            <p class="card-text mb-0">This text is a bit longer to illustrate the adaptive height of each card. Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        </div>
-                        <div class="card-footer p-4 pt-0 bg-transparent border-top-0">
-                            <div class="d-flex align-items-end justify-content-between">
-                                <div class="d-flex align-items-center">
-                                    <img class="rounded-circle me-3" src="https://dummyimage.com/40x40/ced4da/6c757d" alt="..." />
-                                    <div class="small">
-                                        <div class="fw-bold">Josiah Barclay</div>
-                                        <div class="text-muted">March 23, 2021 &middot; 4 min read</div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 mb-5">
-                    <div class="card h-100 shadow border-0">
-                        <img class="card-img-top" src="https://dummyimage.com/600x350/6c757d/343a40" alt="..." />
-                        <div class="card-body p-4">
-                            <div class="badge bg-primary bg-gradient rounded-pill mb-2">News</div>
-                            <a class="text-decoration-none link-dark stretched-link" href="#!"><h5 class="card-title mb-3">The last blog post title is a little bit longer than the others</h5></a>
-                            <p class="card-text mb-0">Some more quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        </div>
-                        <div class="card-footer p-4 pt-0 bg-transparent border-top-0">
-                            <div class="d-flex align-items-end justify-content-between">
-                                <div class="d-flex align-items-center">
-                                    <img class="rounded-circle me-3" src="https://dummyimage.com/40x40/ced4da/6c757d" alt="..." />
-                                    <div class="small">
-                                        <div class="fw-bold">Evelyn Martinez</div>
-                                        <div class="text-muted">April 2, 2021 &middot; 10 min read</div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+        </div>
+    </section>
+    <!-- Section three-->
+    <section class="py-5 bg-light">
+        <div class="container px-5 my-5">
+            <div class="row gx-5 align-items-center">
+                <div class="col-lg-6"><img class="img-fluid rounded mb-5 mb-lg-0" src="/assets/images/photos/make-a-change-600x400.jpg" alt="..." /></div>
+                <div class="col-lg-6">
+                    <h2 class="fw-bolder">Apply for funding</h2>
+                    <p class="lead fw-normal text-muted mb-4">We are always looking for worthy local causes to contribute to. If you feel that Hoylake and West Kirby Round Table could support you or a cause with which you are affiliated then we'd love to hear from you.</p>
+                    <a class="btn btn-primary btn-lg px-4 me-sm-3" href="/apply-for-funding">Apply for funding</a>
                 </div>
             </div>
+        </div>
+    </section>
+    <!-- Section four-->
+    <section class="py-5">
+        <div class="container px-5 my-5">
+            <div class="row gx-5 align-items-center">
+                <div class="col-lg-6 order-first order-lg-last"><img class="img-fluid rounded mb-5 mb-lg-0" src="/assets/images/photos/santa-sleigh-1-600x400.jpg" alt="..." /></div>
+                <div class="col-lg-6">
+                    <h2 class="fw-bolder">Santa Sleigh</h2>
+                    <p class="lead fw-normal text-muted mb-4">Every year we help Santa to visit families across the area.</p>
+                    <a class="btn btn-primary btn-lg px-4 me-sm-3" href="/santa-sleigh">Santa sleigh details</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="py-5 bg-light">
+        <div class="container px-5 my-5">
             <!-- Call to action-->
             <aside class="bg-primary bg-gradient rounded-3 p-4 p-sm-5 mt-5">
                 <div class="mb-4 mb-xl-0 text-center">
-                    <p class="text-white m-0 fs-3 fw-bold">Are you local? We are actively seeking new members.<br /> Why not <a class="link-light" href="/join-us">join us</a> or find out <a class="link-light" href="/about">more about us</a>?</p>
+                    <p class="text-dark m-0 fs-3 fw-bold">We are actively seeking new members.<br /> Why not <a class="link-dark" href="/join-us">join us</a> or find out <a class="link-dark" href="/about">more about us</a>?</p>
                 </div>
             </aside>
         </div>
