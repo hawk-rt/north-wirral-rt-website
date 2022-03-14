@@ -2,13 +2,17 @@
 
 @section('body')
     @include('_partials.masthead')
+    <div class="py-5">
+        <div class="container px-5">
+            <!-- Call to Action-->
+            <div class="card text-dark bg-primary bg-gradient mt-5 py-4 text-center">
+                <div class="card-body"><p class="text-white m-0 fs-3 fw-bold">We are an open group and we are actively seeking new members. <br /> Why not <a class="link-light" href="/join-us">join us</a> or find out <a class="link-light" href="/about">more about us</a>?</p></div>
+            </div>
+        </div>
+    </div>
     <!-- Features section-->
     <section class="py-5" id="features">
         <div class="container px-5 my-5">
-            <!-- Call to Action-->
-            <div class="card text-white bg-secondary my-5 py-4 text-center">
-                <div class="card-body"><p class="text-white m-0">We are an open group and are actively seeking new members. Why not join us or find out more about us?</p></div>
-            </div>
             <div class="row gx-5">
                 <div class="col-lg-4 mb-5 mb-lg-0"><h2 class="fw-bolder mb-0">A better way to start building.</h2></div>
                 <div class="col-lg-8">
@@ -44,13 +48,13 @@
             <div class="row gx-5 justify-content-center">
                 <div class="col-lg-10 col-xl-7">
                     <div class="text-center">
-                        <div class="fs-4 mb-4 fst-italic">"Working with Start Bootstrap templates has saved me tons of development time when building new projects! Starting with a Bootstrap template just makes things easier!"</div>
+                        <div class="fs-4 mb-4 fst-italic">"Round Table helped me meet others in my town that wanted to do something in the community whilst having great fun doing it!  Whether it’s taking Santa around the area to raise thousands of pounds every year or a social night when we come up with ideas of how to work together and support each other, it’s a chance to make new friendships that will last a lifetime. I can truly say that Round Table has transformed my life!"</div>
                         <div class="d-flex align-items-center justify-content-center">
                             <img class="rounded-circle me-3" src="https://dummyimage.com/40x40/ced4da/6c757d" alt="..." />
                             <div class="fw-bold">
-                                Tom Ato
+                                Derek Collie
                                 <span class="fw-bold text-primary mx-1">/</span>
-                                CEO, Pomodoro
+                                Hoylake and West Kirby 311
                             </div>
                         </div>
                     </div>
