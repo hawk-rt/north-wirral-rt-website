@@ -3,5 +3,5 @@ title: Greenbank
 pill:
 image: greenbank.jpg
 date: TBC
-text: This was a new route for us in 2021, and we loved to see all the new faces. We are looking forward to coming back in 2022.
+text: Greenbank Road and the Avenues is always one of Santas favourite routes. Lots of families and really great to have everyone's support.
 ---

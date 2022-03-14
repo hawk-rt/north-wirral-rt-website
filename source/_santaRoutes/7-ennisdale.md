@@ -3,5 +3,5 @@ title: Ennisdale
 pill:
 image: ennisdale.jpg
 date: TBC
-text: This was a new route for us in 2021, and we loved to see all the new faces. We are looking forward to coming back in 2022.
+text: Winding our way through the streets off Ennisdale Drive in West Kirby. An excellent route with lots of families and a warm welcome for Santa and his crew.
 ---
