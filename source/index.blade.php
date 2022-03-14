@@ -1,7 +1,7 @@
 @extends('_layouts.main')
 
 @section('body')
-    @include('_partials.header')
+    @include('_partials.masthead')
     <!-- Features section-->
     <section class="py-5" id="features">
         <div class="container px-5 my-5">

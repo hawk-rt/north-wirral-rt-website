@@ -1,4 +1,4 @@
-<!-- Header-->
+<!-- Masthead-->
 <header class="bg-light py-5">
     <div class="container px-5">
         <div class="row gx-5 align-items-center justify-content-center">
