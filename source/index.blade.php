@@ -29,58 +29,6 @@
             </aside>
         </div>
     </section>
-    <!-- Features section-->
-    <section class="py-5" id="features">
-        <div class="container px-5 my-5">
-            <div class="row gx-5">
-                <div class="col-lg-4 mb-5 mb-lg-0"><h2 class="fw-bolder mb-0">A world of opportunities awaits.</h2></div>
-                <div class="col-lg-8">
-                    <div class="row gx-5 row-cols-1 row-cols-md-2">
-                        <div class="col mb-5 h-100">
-                            <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3"><i class="bi bi-emoji-laughing"></i></div>
-                            <h2 class="h5">Have fun, experience great things</h2>
-                            <p class="mb-0">We have an action packed calendar of activities throughout the year. From go-karting to hill walking, to comedy nights, bowling, shooting and more. There is something for everyone.</p>
-                        </div>
-                        <div class="col mb-5 h-100">
-                            <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3"><i class="bi bi-house-heart"></i></div>
-                            <h2 class="h5">Make a difference in your community</h2>
-                            <p class="mb-0">As well as having fun, community is at the heart of what we do. Among other things we collect donations with our famous Santa Sleigh and donate to many local good causes.</p>
-                        </div>
-                        <div class="col mb-5 mb-md-0 h-100">
-                            <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3"><i class="bi bi-people"></i></div>
-                            <h2 class="h5">Meet like-minded people</h2>
-                            <p class="mb-0">The Round Table is a great way to meet like-minded people of a similar age and make amazing new friendships. We're a supportive and friendly group where everyone looks out for each other.</p>
-                        </div>
-                        <div class="col h-100">
-                            <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3"><i class="bi bi-incognito"></i></div>
-                            <h2 class="h5">No secrets or funny handshakes</h2>
-                            <p class="mb-0">There are no secrets, funny handshakes or trouser leg rolling - we are not that kind of club! We are an open and transparent organisation. Everyone is welcome!</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- Testimonial section-->
-    <div class="py-5 bg-light">
-        <div class="container px-5 my-5">
-            <div class="row gx-5 justify-content-center">
-                <div class="col-lg-10 col-xl-7">
-                    <div class="text-center">
-                        <div class="fs-4 mb-4 fst-italic">"Round Table helped me meet others in my town that wanted to do something in the community whilst having great fun doing it!  I can truly say that Round Table has transformed my life!"</div>
-                        <div class="d-flex align-items-center justify-content-center">
-                            <img class="rounded-circle me-3" src="/assets/images/faces/derek.png" alt="Derek Collie" width="40" />
-                            <div class="fw-bold">
-                                Derek Collie
-                                <span class="fw-bold text-primary mx-1">/</span>
-                                Hoylake and West Kirby 311
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
     <!-- Blog preview section-->
     <section class="py-5">
         <div class="container px-5 my-5">
