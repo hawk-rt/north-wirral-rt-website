@@ -101,7 +101,7 @@
                         <p class="lead fw-normal text-muted mb-4">There is no pressure to join and if you do join there is no pressure to attend events and meetings. We all have other commitments that often mean we cannot attend get togethers. That is absolutely fine. Round Table is a way to unwind and forget other pressures, not to give anyone more stress.</p>
                         <p class="lead fw-normal mb-4">So, give us a call or send us a message. We look forward to seeing you soon.</p>
                         <div class="d-grid gap-3 d-sm-flex justify-content-sm-center justify-content-xl-start">
-                            <a class="btn btn-primary btn-lg px-4 me-sm-3" href="/contact">Get in touch</a>
+                            <a class="btn btn-primary btn-lg px-4 me-sm-3" href="{{ $page->links->contact }}">Get in touch</a>
                         </div>
                     </div>
                 </div>

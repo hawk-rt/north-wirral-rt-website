@@ -24,7 +24,7 @@
                 <p class="lead mb-0">
                     We'd love to hear from you.
                     <br />
-                    Visit our <a href="/contact">contact page</a> to reach us.
+                    Visit our <a href="{{ $page->links->contact }}">contact page</a> to reach us.
                 </p>
             </div>
         </div>
