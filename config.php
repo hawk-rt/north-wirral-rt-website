@@ -12,6 +12,9 @@ return [
         'santa' => '/santa-sleigh',
         'contact' => '/contact',
     ],
+    'active' => function ($page, $path) {
+        return $page->getPath() == $path ? 'active' : '';
+    },
     'collections' => [
         'santaRoutes' => [
             'path' => 'santaRoutes',
