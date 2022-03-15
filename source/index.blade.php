@@ -24,7 +24,7 @@
             <!-- Call to action-->
             <aside class="bg-primary bg-gradient rounded-3 p-4 p-sm-5">
                 <div class="mb-4 mb-xl-0 text-center">
-                    <p class="text-dark m-0 fs-3 fw-bold">We are actively seeking new members.<br /> Why not <a class="link-dark" href="{{ $page->links->join }}">join us</a> or find out <a class="link-dark" href="{{ $page->links->about }}">more about us</a>?</p>
+                    <p class="text-dark m-0 fs-3 fw-bold">We are seeking new members.<br /> Why not <a class="link-dark" href="{{ $page->links->join }}">join us</a> or find out <a class="link-dark" href="{{ $page->links->about }}">more about us</a>?</p>
                 </div>
             </aside>
         </div>
@@ -86,7 +86,7 @@
             <!-- Call to action-->
             <aside class="bg-primary bg-gradient rounded-3 p-4 p-sm-5 mt-5">
                 <div class="mb-4 mb-xl-0 text-center">
-                    <p class="text-dark m-0 fs-3 fw-bold">We are actively seeking new members.<br /> Why not <a class="link-dark" href="{{ $page->links->join }}">join us</a> or find out <a class="link-dark" href="{{ $page->links->about }}">more about us</a>?</p>
+                    <p class="text-dark m-0 fs-3 fw-bold">We are seeking new members.<br /> Why not <a class="link-dark" href="{{ $page->links->join }}">join us</a> or find out <a class="link-dark" href="{{ $page->links->about }}">more about us</a>?</p>
                 </div>
             </aside>
         </div>
