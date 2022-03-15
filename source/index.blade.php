@@ -59,7 +59,7 @@
     <section class="py-5 bg-light">
         <div class="container px-5 my-5">
             <div class="row gx-5 align-items-center">
-                <div class="col-lg-6"><img class="img-fluid rounded mb-5 mb-lg-0" src="/assets/images/photos/make-a-change-600x400.jpg" alt="..." /></div>
+                <div class="col-lg-6"><img class="img-fluid rounded mb-5 mb-lg-0" src="/assets/images/photos/together-600x400.jpg" alt="..." /></div>
                 <div class="col-lg-6">
                     <h2 class="fw-bolder">Apply for funding</h2>
                     <p class="lead fw-normal text-muted mb-4">We are always looking for worthy local causes to contribute to. If you feel that Hoylake and West Kirby Round Table could support you or a cause with which you are affiliated then we'd love to hear from you.</p>
