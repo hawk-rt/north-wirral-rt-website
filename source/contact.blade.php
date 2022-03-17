@@ -1,5 +1,7 @@
 @extends('_layouts.main')
 
+@section('title', 'Contact')
+
 @section('body')
     <!-- Header-->
     <header class="py-2 py-md-5 bg-light">

@@ -1,5 +1,7 @@
 @extends('_layouts.main')
 
+@section('title', 'Join Us')
+
 @section('body')
     <!-- Header-->
     <header class="bg-light py-2 py-md-5">
