@@ -3,7 +3,7 @@
 @section('body')
     <!-- Header-->
     <header class="py-2 py-md-5 bg-light">
-        <div class="container px-3 px-md-5 my-4 my-md-5">
+        <div class="container px-3 px-md-5 my-4 my-md-2">
             <div class="row justify-content-center">
                 <div class="col-lg-8">
                     <div class="text-center">
