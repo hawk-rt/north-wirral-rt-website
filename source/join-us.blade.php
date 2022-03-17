@@ -3,7 +3,7 @@
 @section('body')
     <!-- Header-->
     <header class="bg-light py-5">
-        <div class="container px-5">
+        <div class="container px-3 px-md-5">
             <div class="row gx-5 align-items-center justify-content-center">
                 <div class="col-lg-8 col-xl-7 col-xxl-6">
                     <div class="my-5 text-center text-xl-start">
@@ -40,7 +40,7 @@
     </header>
     <!-- Features section-->
     <section class="py-5" id="features">
-        <div class="container px-5 my-5">
+        <div class="container px-3 px-md-5 my-5">
             <div class="row gx-5">
                 <div class="col-12 mb-5 "><h2 class="fw-bolder mb-0">A world of opportunities awaits...</h2></div>
                 <div class="col-12">
@@ -72,7 +72,7 @@
     </section>
     <!-- Testimonial section-->
     <div class="py-5 bg-light">
-        <div class="container px-5 my-5">
+        <div class="container px-3 px-md-5 my-5">
             <div class="row gx-5 justify-content-center">
                 <div class="col-lg-10 col-xl-7">
                     <div class="text-center">
@@ -91,7 +91,7 @@
         </div>
     </div>
     <section class="bg-white py-5">
-        <div class="container px-5">
+        <div class="container px-3 px-md-5">
             <div class="row gx-5 align-items-center justify-content-center">
                 <div class="col-xl-5 col-xxl-6 d-block text-center"><img class="img-fluid rounded-3 my-5" src="/assets/images/photos/walk-2020-1-600x400.jpg" alt="HaWK Round Table Walk Summer 2020" /></div>
                 <div class="col-lg-8 col-xl-7 col-xxl-6">

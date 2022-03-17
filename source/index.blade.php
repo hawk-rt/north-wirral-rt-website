@@ -3,7 +3,7 @@
 @section('body')
     <!-- Header-->
     <header class="bg-light py-5">
-        <div class="container px-5">
+        <div class="container px-3 px-md-5">
             <div class="row gx-5 align-items-center justify-content-center">
                 <div class="col-lg-8 col-xl-7 col-xxl-6">
                     <div class="my-5 text-center text-xl-start">
@@ -20,7 +20,7 @@
         </div>
     </header>
     <section class="py-5">
-        <div class="container px-5">
+        <div class="container px-3 px-md-5">
             <!-- Call to action-->
             <aside class="bg-primary bg-gradient rounded-3 p-4 p-sm-5">
                 <div class="mb-4 mb-xl-0 text-center">
@@ -31,7 +31,7 @@
     </section>
     <!-- Section one-->
     <section class="py-5 bg-light" id="start">
-        <div class="container px-5 my-5">
+        <div class="container px-3 px-md-5 my-5">
             <div class="row gx-5 align-items-center">
                 <div class="col-lg-6"><img class="img-fluid rounded mb-5 mb-lg-0" src="/assets/images/photos/walk-2020-600x400.jpg" alt="..." /></div>
                 <div class="col-lg-6">
@@ -44,7 +44,7 @@
     </section>
     <!-- Section two-->
     <section class="py-5">
-        <div class="container px-5 my-5">
+        <div class="container px-3 px-md-5 my-5">
             <div class="row gx-5 align-items-center">
                 <div class="col-lg-6 order-first order-lg-last"><img class="img-fluid rounded mb-5 mb-lg-0" src="/assets/images/photos/axe-throwing-600x400.jpg" alt="..." /></div>
                 <div class="col-lg-6">
@@ -57,7 +57,7 @@
     </section>
     <!-- Section three-->
     <section class="py-5 bg-light">
-        <div class="container px-5 my-5">
+        <div class="container px-3 px-md-5 my-5">
             <div class="row gx-5 align-items-center">
                 <div class="col-lg-6"><img class="img-fluid rounded mb-5 mb-lg-0" src="/assets/images/photos/together-600x400.jpg" alt="..." /></div>
                 <div class="col-lg-6">
@@ -70,7 +70,7 @@
     </section>
     <!-- Section four-->
     <section class="py-5">
-        <div class="container px-5 my-5">
+        <div class="container px-3 px-md-5 my-5">
             <div class="row gx-5 align-items-center">
                 <div class="col-lg-6 order-first order-lg-last"><img class="img-fluid rounded mb-5 mb-lg-0" src="/assets/images/photos/santa-sleigh-1-600x400.jpg" alt="..." /></div>
                 <div class="col-lg-6">
@@ -82,7 +82,7 @@
         </div>
     </section>
     <section class="py-5 bg-light">
-        <div class="container px-5 my-5">
+        <div class="container px-3 px-md-5 my-5">
             <!-- Call to action-->
             <aside class="bg-primary bg-gradient rounded-3 p-4 p-sm-5 mt-5">
                 <div class="mb-4 mb-xl-0 text-center">

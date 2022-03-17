@@ -3,7 +3,7 @@
 @section('body')
     <!-- Header-->
     <header class="bg-light py-5">
-        <div class="container px-5">
+        <div class="container px-3 px-md-5">
             <div class="row gx-5 align-items-center justify-content-center">
                 <div class="col-xl-5 col-xxl-6 d-block text-center"><img class="img-fluid rounded-3 my-5" src="/assets/images/photos/santa-sleigh-1-600x400.jpg" alt="Hoylake and West Kirby Santa Sleigh" /></div>
                 <div class="col-lg-8 col-xl-7 col-xxl-6">
@@ -18,7 +18,7 @@
     </header>
     <!-- Santa sleigh routes section-->
     <section class="py-5 bg-white">
-        <div class="container px-5 my-5">
+        <div class="container px-3 px-md-5 my-5">
             <div class="row gx-5 justify-content-center">
                 <div class="col-lg-8 col-xl-6">
                     <div class="text-center">

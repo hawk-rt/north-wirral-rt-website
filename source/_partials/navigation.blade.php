@@ -1,6 +1,6 @@
 <!-- Navigation-->
 <nav class="navbar navbar-expand-lg navbar-light bg-primary">
-    <div class="container px-5">
+    <div class="container px-3 px-md-5">
         <a class="navbar-brand d-none d-md-block" href="/">
             <img src="/favicon.png" alt="" width="24" height="24" class="d-inline-block align-text-top">
             {{ $page->title }}

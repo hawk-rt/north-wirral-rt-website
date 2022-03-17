@@ -1,66 +1,30 @@
 @extends('_layouts.main')
 
 @section('body')
+    <!-- Header-->
+    <header class="py-5 bg-light">
+        <div class="container px-3 px-md-5">
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="text-center my-5">
+                        <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3"><i class="bi bi-envelope"></i></div>
+                        <h1 class="fw-bolder">Get in touch</h1>
+                        <p class="lead fw-normal text-muted my-4">Email us <a href="mailto:hawk@roundtable.org.uk">hawk@roundtable.org.uk</a> or use the form below to get in touch.</p>
+                        <p class="lead fw-normal text-muted mb-4">Looking for funding? Use our <a href="{{ $page->links->funding }}">funding application form</a>.</p>
+                        <p class="lead fw-normal text-muted mb-0">We look forward to hearing from you.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
     <!-- Page content-->
     <section class="py-5">
-        <div class="container px-5">
+        <div class="container px-3 px-md-5 mb-5">
             <!-- Contact form-->
-            <div class="bg-light rounded-3 py-5 px-4 px-md-5 mb-5">
-                <div class="text-center mb-5">
-                    <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3"><i class="bi bi-envelope"></i></div>
-                    <h1 class="fw-bolder">Get in touch</h1>
-                    <p class="lead fw-normal text-muted mb-0">We'd love to hear from you</p>
-                </div>
-                <div class="row gx-5 justify-content-center">
-                    <div class="col-lg-8 col-xl-6">
-                        <form id="contactForm" class="needs-validation" novalidate>
-                            <!-- Name input-->
-                            <div class="form-floating mb-3">
-                                <input class="form-control" id="name" type="text" placeholder="Enter your name..." required />
-                                <label for="name" class="form-label">Full name</label>
-                                <div class="invalid-feedback">
-                                    Your name is required.
-                                </div>
-                            </div>
-                            <!-- Email address input-->
-                            <div class="form-floating mb-3">
-                                <input class="form-control" id="email" type="email" placeholder="name@example.com" required />
-                                <label for="email" class="form-label">Email address</label>
-                                <div class="invalid-feedback">
-                                    Please provide a valid email.
-                                </div>
-                            </div>
-                            <!-- Phone number input-->
-                            <div class="form-floating mb-3">
-                                <input class="form-control" id="phone" type="tel" placeholder="07911 123456" required />
-                                <label for="phone" class="form-label">Phone number</label>
-                                <div class="invalid-feedback">
-                                    A phone number is required.
-                                </div>
-                            </div>
-                            <!-- Message input-->
-                            <div class="form-floating mb-3">
-                                <textarea class="form-control" id="message" type="text" placeholder="Enter your message here..." style="height: 10rem" required></textarea>
-                                <label for="message" class="form-label">Message</label>
-                                <div class="invalid-feedback">
-                                    A message is required.
-                                </div>
-                            </div>
-                            <!-- Submit success message-->
-                            <div class="d-none" id="submitSuccessMessage">
-                                <div class="text-center mb-3">
-                                    <div class="fw-bolder">Form submission successful!</div>
-                                </div>
-                            </div>
-                            <!-- Submit error message-->
-                            <div class="d-none" id="submitErrorMessage">
-                                <div class="text-center text-danger mb-3">
-                                    <div class="fw-bolder">Error sending message!</div>
-                                </div>
-                            </div>
-                            <!-- Submit Button-->
-                            <div class="d-grid"><button class="btn btn-primary btn-lg" id="submitButton" type="submit">Submit</button></div>
-                        </form>
+            <div class="row gx-5 justify-content-center">
+                <div class="col-12 col-xl-8">
+                    <div class="embed-responsive embed-responsive-4by3">
+                        <iframe class="embed-responsive-item" src="https://docs.google.com/forms/d/e/1FAIpQLScPpD4sG4gCwkjzwKtdUv4-5_vUgSl5rnS1qfwACGzMvC2sJA/viewform?embedded=true" width="100%" height="1000" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
                     </div>
                 </div>
             </div>

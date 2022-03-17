@@ -3,7 +3,7 @@
 @section('body')
     <!-- Header-->
     <header class="py-5">
-        <div class="container px-5">
+        <div class="container px-3 px-md-5">
             <div class="row justify-content-center">
                 <div class="col-lg-8">
                     <div class="text-center my-5">
@@ -17,7 +17,7 @@
     </header>
     <!-- About section one-->
     <section class="py-5 bg-light" id="read-on">
-        <div class="container px-5 my-5">
+        <div class="container px-3 px-md-5 my-5">
             <div class="row gx-5 align-items-center">
                 <div class="col-lg-6"><img class="img-fluid rounded mb-5 mb-lg-0" src="/assets/images/photos/walk-2020-1-600x400.jpg" alt="Round Table members on a windy day" /></div>
                 <div class="col-lg-6">
@@ -29,7 +29,7 @@
     </section>
     <!-- About section two-->
     <section class="py-5">
-        <div class="container px-5 my-5">
+        <div class="container px-3 px-md-5 my-5">
             <div class="row gx-5 align-items-center">
                 <div class="col-lg-6 order-first order-lg-last"><img class="img-fluid rounded mb-5 mb-lg-0" src="/assets/images/photos/santa-sleigh-1-600x400.jpg" alt="Santa visiting families in Hoylake and West Kirby" /></div>
                 <div class="col-lg-6">
@@ -42,7 +42,7 @@
     </section>
     <!-- About section three -->
     <section class="py-5 bg-light" id="read-on">
-        <div class="container px-5 my-5">
+        <div class="container px-3 px-md-5 my-5">
             <div class="row gx-5 align-items-center">
                 <div class="col-lg-6"><img class="img-fluid rounded mb-5 mb-lg-0" src="/assets/images/photos/winter-warmer-600x400.jpg" alt="Winter Warmer" /></div>
                 <div class="col-lg-6">
@@ -55,7 +55,7 @@
     </section>
     <!-- About section two-->
     <section class="py-5">
-        <div class="container px-5 my-5">
+        <div class="container px-3 px-md-5 my-5">
             <div class="row gx-5 align-items-center">
                 <div class="col-lg-6 order-first order-lg-last"><img class="img-fluid rounded mb-5 mb-lg-0" src="/assets/images/photos/together-600x400.jpg" alt="Supporting good causes together" /></div>
                 <div class="col-lg-6">
@@ -67,7 +67,7 @@
     </section>
     <!-- Team members section-->
     <section class="py-5 bg-light">
-        <div class="container px-5 my-5">
+        <div class="container px-3 px-md-5 my-5">
             <!-- Call to action-->
             <aside class="bg-primary bg-gradient rounded-3 p-4 p-sm-5 mt-5">
                 <div class="mb-4 mb-xl-0 text-center">
