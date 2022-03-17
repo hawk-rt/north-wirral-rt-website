@@ -69,7 +69,7 @@
     <section class="py-2 py-md-5 bg-light">
         <div class="container px-3 px-md-5 my-4 my-md-5">
             <!-- Call to action-->
-            <aside class="bg-primary bg-gradient rounded-3 p-4 p-sm-5 mt-5">
+            <aside class="bg-primary bg-gradient rounded-3 p-4 p-sm-5">
                 <div class="mb-4 mb-xl-0 text-center">
                     <p class="text-dark m-0 fs-3 fw-bold">We are seeking new members, why not <a class="link-dark" href="{{ $page->links->join }}">join us</a>?</p>
                 </div>
