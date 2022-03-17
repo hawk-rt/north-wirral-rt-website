@@ -2,11 +2,11 @@
 
 @section('body')
     <!-- Header-->
-    <header class="py-5 bg-light">
-        <div class="container px-3 px-md-5">
+    <header class="py-2 py-md-5 bg-light">
+        <div class="container px-3 px-md-5 my-4 my-md-5">
             <div class="row justify-content-center">
                 <div class="col-lg-8">
-                    <div class="text-center my-5">
+                    <div class="text-center">
                         <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3"><i class="bi bi-envelope"></i></div>
                         <h1 class="fw-bolder">Get in touch</h1>
                         <p class="lead fw-normal text-muted my-4">Email us <a href="mailto:hawk@roundtable.org.uk">hawk@roundtable.org.uk</a> or use the form below to get in touch.</p>
@@ -18,8 +18,8 @@
         </div>
     </header>
     <!-- Page content-->
-    <section class="py-5">
-        <div class="container px-3 px-md-5 mb-5">
+    <section class="py-2 py-md-5">
+        <div class="container px-3 px-md-5 my-4 my-md-5">
             <!-- Contact form-->
             <div class="row gx-5 justify-content-center">
                 <div class="col-12 col-xl-8">

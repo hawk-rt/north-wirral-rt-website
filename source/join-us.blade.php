@@ -2,11 +2,11 @@
 
 @section('body')
     <!-- Header-->
-    <header class="bg-light py-5">
-        <div class="container px-3 px-md-5">
+    <header class="bg-light py-2 py-md-5">
+        <div class="container px-3 px-md-5 my-4 my-md-5">
             <div class="row gx-5 align-items-center justify-content-center">
-                <div class="col-lg-8 col-xl-7 col-xxl-6">
-                    <div class="my-5 text-center text-xl-start">
+                <div class="col-xl-6">
+                    <div class="text-center text-xl-start">
                         <h1 class="fw-bolder mb-2">Do you want to have fun, build lifelong friendships and meet like-minded men from your community?</h1>
                         <p class="lead fw-normal text-muted mb-4">If the answer to these questions is YES, then Round Table is the perfect place for you.</p>
                         <div class="d-grid gap-3 d-sm-flex justify-content-sm-center justify-content-xl-start">
@@ -14,7 +14,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-xl-5 col-xxl-6 d-block text-center">
+                <div class="col-xl-6 d-block text-center my-5 my-xl-0">
                     <div id="carouselHeader" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000" data-bs-ride="carousel" data-bs-pause="false">
                         <div class="carousel-inner">
                             <div class="carousel-item active">
@@ -22,9 +22,6 @@
                             </div>
                             <div class="carousel-item">
                                 <img src="/assets/images/photos/axe-throwing-600x400.jpg" class="d-block w-100 rounded-3" alt="Shuffleboard">
-                            </div>
-                            <div class="carousel-item">
-                                <img src="/assets/images/photos/dingy-600x400.jpg" class="d-block w-100 rounded-3" alt="Dingy Rafting">
                             </div>
                             <div class="carousel-item">
                                 <img src="/assets/images/photos/tractor-push-600x400.jpg" class="d-block w-100 rounded-3" alt="Tractor Push">
@@ -39,8 +36,8 @@
         </div>
     </header>
     <!-- Features section-->
-    <section class="py-5" id="features">
-        <div class="container px-3 px-md-5 my-5">
+    <section class="py-2 py-md-5" id="features">
+        <div class="container px-3 px-md-5 my-4 my-md-5">
             <div class="row gx-5">
                 <div class="col-12 mb-5 "><h2 class="fw-bolder mb-0">A world of opportunities awaits...</h2></div>
                 <div class="col-12">
@@ -71,8 +68,8 @@
         </div>
     </section>
     <!-- Testimonial section-->
-    <div class="py-5 bg-light">
-        <div class="container px-3 px-md-5 my-5">
+    <div class="py-2 py-md-5 bg-light">
+        <div class="container px-3 px-md-5 my-4 my-md-5">
             <div class="row gx-5 justify-content-center">
                 <div class="col-lg-10 col-xl-7">
                     <div class="text-center">
@@ -90,12 +87,12 @@
             </div>
         </div>
     </div>
-    <section class="bg-white py-5">
-        <div class="container px-3 px-md-5">
+    <section class="bg-white py-2 py-md-5">
+        <div class="container px-3 px-md-5 my-4 my-md-5">
             <div class="row gx-5 align-items-center justify-content-center">
-                <div class="col-xl-5 col-xxl-6 d-block text-center"><img class="img-fluid rounded-3 my-5" src="/assets/images/photos/walk-2020-1-600x400.jpg" alt="HaWK Round Table Walk Summer 2020" /></div>
+                <div class="col-xl-5 col-xxl-6 d-block text-center"><img class="img-fluid rounded-3 mb-5" src="/assets/images/photos/walk-2020-1-600x400.jpg" alt="HaWK Round Table Walk Summer 2020" /></div>
                 <div class="col-lg-8 col-xl-7 col-xxl-6">
-                    <div class="my-5 text-center text-xl-start">
+                    <div class="text-center text-xl-start">
                         <h4 class="fw-bolder mb-2">Becoming a member of HaWK Round Table couldn't be easier</h4>
                         <p class="lead fw-normal text-muted mb-4">You don't have to join straight away. Come to a few events, meet the people, relax and have a chat about what is going on this year and then make your decision.</p>
                         <p class="lead fw-normal text-muted mb-4">There is no pressure to join and if you do join there is no pressure to attend events and meetings. We all have other commitments that often mean we cannot attend get togethers. That is absolutely fine. Round Table is a way to unwind and forget other pressures, not to give anyone more stress.</p>

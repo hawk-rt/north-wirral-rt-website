@@ -2,12 +2,12 @@
 
 @section('body')
     <!-- Header-->
-    <header class="bg-light py-5">
-        <div class="container px-3 px-md-5">
+    <header class="bg-light py-2 py-md-5">
+        <div class="container px-3 px-md-5 my-4 my-md-5">
             <div class="row gx-5 align-items-center justify-content-center">
-                <div class="col-xl-5 col-xxl-6 d-block text-center"><img class="img-fluid rounded-3 my-5" src="/assets/images/photos/santa-sleigh-1-600x400.jpg" alt="Hoylake and West Kirby Santa Sleigh" /></div>
-                <div class="col-lg-8 col-xl-7 col-xxl-6">
-                    <div class="my-5 text-center text-xl-start">
+                <div class="col-xl-6 d-block text-center"><img class="img-fluid rounded-3 mb-5" src="/assets/images/photos/santa-sleigh-1-600x400.jpg" alt="Hoylake and West Kirby Santa Sleigh" /></div>
+                <div class="col-xl-6">
+                    <div class="text-center text-xl-start">
                         <h1 class="fw-bolder mb-2">Our famous Santa Sleigh, a magical experience for all</h1>
                         <p class="lead fw-normal text-muted mb-4">Every year we bring Santa to the streets of Greasby, Hoylake, Newton, Meols, and West Kirby to raise money for good causes and to bring a smile to the faces of the young children in our community.</p>
                         <p class="lead fw-normal text-muted mb-4">This is always a really special event for us. We love to see the community out on the streets and sharing this magical experience.</p>
@@ -17,8 +17,8 @@
         </div>
     </header>
     <!-- Santa sleigh routes section-->
-    <section class="py-5 bg-white">
-        <div class="container px-3 px-md-5 my-5">
+    <section class="py-2 py-md-5 bg-white">
+        <div class="container px-3 px-md-5 my-4 my-md-5">
             <div class="row gx-5 justify-content-center">
                 <div class="col-lg-8 col-xl-6">
                     <div class="text-center">

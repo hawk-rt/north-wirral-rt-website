@@ -2,11 +2,11 @@
 
 @section('body')
     <!-- Header-->
-    <header class="bg-light py-5">
-        <div class="container px-3 px-md-5">
+    <header class="bg-light py-2 py-md-5">
+        <div class="container px-3 px-md-5 my-4 my-md-5">
             <div class="row gx-5 align-items-center justify-content-center">
                 <div class="col-lg-8 col-xl-7 col-xxl-6">
-                    <div class="my-5 text-center text-xl-start">
+                    <div class="text-center text-xl-start">
                         <h1 class="display-5 fw-bolder mb-2">Hoylake and West Kirby Round Table</h1>
                         <p class="lead fw-normal mb-4">We are your local community group for men aged 18-45. We organise social events and activities, fundraise in the community and support local causes.</p>
                         <div class="d-grid gap-3 d-sm-flex justify-content-sm-center justify-content-xl-start">
@@ -19,8 +19,8 @@
             </div>
         </div>
     </header>
-    <section class="py-5">
-        <div class="container px-3 px-md-5">
+    <section class="py-2 py-md-5">
+        <div class="container px-3 px-md-5 my-4 my-md-5">
             <!-- Call to action-->
             <aside class="bg-primary bg-gradient rounded-3 p-4 p-sm-5">
                 <div class="mb-4 mb-xl-0 text-center">
@@ -30,8 +30,8 @@
         </div>
     </section>
     <!-- Section one-->
-    <section class="py-5 bg-light" id="start">
-        <div class="container px-3 px-md-5 my-5">
+    <section class="py-2 py-md-5 bg-light" id="start">
+        <div class="container px-3 px-md-5 my-4 my-md-5">
             <div class="row gx-5 align-items-center">
                 <div class="col-lg-6"><img class="img-fluid rounded mb-5 mb-lg-0" src="/assets/images/photos/walk-2020-600x400.jpg" alt="..." /></div>
                 <div class="col-lg-6">
@@ -43,8 +43,8 @@
         </div>
     </section>
     <!-- Section two-->
-    <section class="py-5">
-        <div class="container px-3 px-md-5 my-5">
+    <section class="py-2 py-md-5">
+        <div class="container px-3 px-md-5 my-4 my-md-5">
             <div class="row gx-5 align-items-center">
                 <div class="col-lg-6 order-first order-lg-last"><img class="img-fluid rounded mb-5 mb-lg-0" src="/assets/images/photos/axe-throwing-600x400.jpg" alt="..." /></div>
                 <div class="col-lg-6">
@@ -56,8 +56,8 @@
         </div>
     </section>
     <!-- Section three-->
-    <section class="py-5 bg-light">
-        <div class="container px-3 px-md-5 my-5">
+    <section class="py-2 py-md-5 bg-light">
+        <div class="container px-3 px-md-5 my-4 my-md-5">
             <div class="row gx-5 align-items-center">
                 <div class="col-lg-6"><img class="img-fluid rounded mb-5 mb-lg-0" src="/assets/images/photos/together-600x400.jpg" alt="..." /></div>
                 <div class="col-lg-6">
@@ -69,8 +69,8 @@
         </div>
     </section>
     <!-- Section four-->
-    <section class="py-5">
-        <div class="container px-3 px-md-5 my-5">
+    <section class="py-2 py-md-5">
+        <div class="container px-3 px-md-5 my-4 my-md-5">
             <div class="row gx-5 align-items-center">
                 <div class="col-lg-6 order-first order-lg-last"><img class="img-fluid rounded mb-5 mb-lg-0" src="/assets/images/photos/santa-sleigh-1-600x400.jpg" alt="..." /></div>
                 <div class="col-lg-6">
@@ -81,10 +81,10 @@
             </div>
         </div>
     </section>
-    <section class="py-5 bg-light">
-        <div class="container px-3 px-md-5 my-5">
+    <section class="py-2 py-md-5 bg-light">
+        <div class="container px-3 px-md-5 my-4 my-md-5">
             <!-- Call to action-->
-            <aside class="bg-primary bg-gradient rounded-3 p-4 p-sm-5 mt-5">
+            <aside class="bg-primary bg-gradient rounded-3 p-4 p-sm-5">
                 <div class="mb-4 mb-xl-0 text-center">
                     <p class="text-dark m-0 fs-3 fw-bold">We are seeking new members.<br /> Why not <a class="link-dark" href="{{ $page->links->join }}">join us</a> or find out <a class="link-dark" href="{{ $page->links->about }}">more about us</a>?</p>
                 </div>
