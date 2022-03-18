@@ -1,0 +1,15 @@
+//
+// Nav
+//
+
+@include media-breakpoint-up(lg) {
+  #navbarSupportedContent {
+    font-size: 0.9em;
+  }
+}
+
+@include media-breakpoint-up(xl) {
+  #navbarSupportedContent {
+    font-size: 1em;
+  }
+}
