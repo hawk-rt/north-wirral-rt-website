@@ -12,7 +12,7 @@
                         <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3"><i class="bi bi-cash-stack"></i></div>
                         <h1 class="fw-bolder">Apply for funding</h1>
                         <p class="lead fw-normal text-muted my-4">We always welcome funding applications from local good causes.</p>
-                        <p class="lead fw-normal text-muted mb-0">If you feel that Hoylake and West Kirby Round Table could support you or a cause with which you are affiliated then please use this form.</p>
+                        <p class="lead fw-normal text-muted mb-0">If you feel that North Wirral Round Table could support you or a cause with which you are affiliated then please use this form.</p>
                     </div>
                 </div>
             </div>

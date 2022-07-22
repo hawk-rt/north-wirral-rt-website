@@ -10,7 +10,7 @@
                 <div class="col-lg-8">
                     <div class="text-center">
                         <h1 class="fw-bolder mb-3">Our mission is to have fun and challenge ourselves while supporting the wider Wirral community.</h1>
-                        <p class="lead fw-normal text-muted mb-4">Hoylake and West Kirby Round Table is your local branch of this national organisation which fundraises for local good causes. The members are a group of men aged 18 to 45 from differing backgrounds who have joined for a variety of reasons but mainly to have some fun and challenge themselves whilst at the same time supporting the wider Wirral community.</p>
+                        <p class="lead fw-normal text-muted mb-4">North Wirral Round Table is your local branch of this national organisation which fundraises for local good causes. The members are a group of men aged 18 to 45 from differing backgrounds who have joined for a variety of reasons but mainly to have some fun and challenge themselves whilst at the same time supporting the wider Wirral community.</p>
                         <a class="btn btn-primary btn-lg" href="#read-on">Read about what we do</a>
                     </div>
                 </div>
@@ -33,10 +33,10 @@
     <section class="py-2 py-md-5">
         <div class="container px-3 px-md-5 my-4 my-md-5">
             <div class="row gx-5 align-items-center">
-                <div class="col-lg-6 order-first order-lg-last"><img class="img-fluid rounded mb-5 mb-lg-0" src="/assets/images/photos/santa-sleigh-1-600x400.jpg" alt="Santa visiting families in Hoylake and West Kirby" /></div>
+                <div class="col-lg-6 order-first order-lg-last"><img class="img-fluid rounded mb-5 mb-lg-0" src="/assets/images/photos/santa-sleigh-1-600x400.jpg" alt="Santa visiting families in North Wirral" /></div>
                 <div class="col-lg-6">
                     <h2 class="fw-bolder">Fundraising Events</h2>
-                    <p class="lead fw-normal text-muted mb-4">Our biggest fundraising event is our famous <a href="{{ $page->links->santa }}">Santa Sleigh</a> which you can see around the streets of West Kirby, Hoylake, Meols and beyond during December each year.</p>
+                    <p class="lead fw-normal text-muted mb-4">Our biggest fundraising event is our famous <a href="{{ $page->links->santa }}">Santa Sleigh</a> which you can see around the streets of Greasby, Hoylake, Newton, Meols, Wallasey, West Kirby and beyond during December each year.</p>
                     <p class="lead fw-normal text-muted mb-0">The Santa Sleigh is really enjoyable event to be involved with and everyone is welcome to join us. <a href="{{ $page->links->contact }}">Get in touch</a> if you'd like to be involved.</p>
                 </div>
             </div>
@@ -62,7 +62,7 @@
                 <div class="col-lg-6 order-first order-lg-last"><img class="img-fluid rounded mb-5 mb-lg-0" src="/assets/images/photos/together-600x400.jpg" alt="Supporting good causes together" /></div>
                 <div class="col-lg-6">
                     <h2 class="fw-bolder">Supporting Good Causes</h2>
-                    <p class="lead fw-normal text-muted mb-0">Aside from fun and friendship, our purpose as a group is to support local good causes. We are always on the lookout for causes that would benefit from our help so if you feel that Hoylake and West Kirby Round Table could support your cause then please fill out our <a href="{{ $page->links->funding }}">funding application</a>.</p>
+                    <p class="lead fw-normal text-muted mb-0">Aside from fun and friendship, our purpose as a group is to support local good causes. We are always on the lookout for causes that would benefit from our help so if you feel that North Wirral Round Table could support your cause then please fill out our <a href="{{ $page->links->funding }}">funding application</a>.</p>
                 </div>
             </div>
         </div>

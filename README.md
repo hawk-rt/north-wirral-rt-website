@@ -1,4 +1,4 @@
-## Hoylake and West Kirby Round Table Website
+## North Wirral Round Table Website
 
 This site is built using the [tighten/jigsaw](https://github.com/tighten/jigsaw) static site builder.
 

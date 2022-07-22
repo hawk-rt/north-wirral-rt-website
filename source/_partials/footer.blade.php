@@ -4,19 +4,18 @@
         <div class="row">
             <!-- Footer Location-->
             <div class="col-lg-4 mb-5 mb-lg-0">
-                <h4 class="text-uppercase mb-4">HaWK Round Table</h4>
+                <h4 class="text-uppercase mb-4">North Wirral Round Table</h4>
                 <p class="lead mb-0">
                     Great Britain & Ireland:
                     <br />
-                    Hoylake and West Kirby 311
+                    North Wirral 311
                 </p>
             </div>
             <!-- Footer Social Icons-->
             <div class="col-lg-4 mb-5 mb-lg-0">
                 <h4 class="text-uppercase mb-4">Around the Web</h4>
-                <a class="btn btn-outline-light btn-social mx-1" href="https://www.facebook.com/hawkroundtable"><i class="bi bi-facebook"></i></a>
-                <a class="btn btn-outline-light btn-social mx-1" href="https://twitter.com/hawkroundtable"><i class="bi bi-twitter"></i></a>
-                <a class="btn btn-outline-light btn-social mx-1" href="https://www.instagram.com/hawk_311/"><i class="bi bi-instagram"></i></a>
+                <a class="btn btn-outline-light btn-social mx-1" href="https://www.facebook.com/northwirralroundtable"><i class="bi bi-facebook"></i></a>
+                <a class="btn btn-outline-light btn-social mx-1" href="https://twitter.com/NorthWirralRT"><i class="bi bi-twitter"></i></a>
             </div>
             <!-- Footer About Text-->
             <div class="col-lg-4">

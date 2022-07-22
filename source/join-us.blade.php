@@ -81,7 +81,7 @@
                             <div class="fw-bold">
                                 Derek Collie
                                 <span class="fw-bold text-primary mx-1">/</span>
-                                Hoylake and West Kirby 311
+                                North Wirral 311
                             </div>
                         </div>
                     </div>
@@ -92,10 +92,10 @@
     <section class="bg-white py-2 py-md-5">
         <div class="container px-3 px-md-5 my-4 my-md-5">
             <div class="row gx-5 align-items-center justify-content-center">
-                <div class="col-xl-5 col-xxl-6 d-block text-center"><img class="img-fluid rounded-3 mb-5" src="/assets/images/photos/walk-2020-1-600x400.jpg" alt="HaWK Round Table Walk Summer 2020" /></div>
+                <div class="col-xl-5 col-xxl-6 d-block text-center"><img class="img-fluid rounded-3 mb-5" src="/assets/images/photos/walk-2020-1-600x400.jpg" alt="Our Round Table Walk Summer 2020" /></div>
                 <div class="col-lg-8 col-xl-7 col-xxl-6">
                     <div class="text-center text-xl-start">
-                        <h4 class="fw-bolder mb-2">Becoming a member of HaWK Round Table couldn't be easier</h4>
+                        <h4 class="fw-bolder mb-2">Becoming a member of North Wirral Round Table couldn't be easier</h4>
                         <p class="lead fw-normal text-muted mb-4">You don't have to join straight away. Come to a few events, meet the people, relax and have a chat about what is going on this year and then make your decision.</p>
                         <p class="lead fw-normal text-muted mb-4">There is no pressure to join and if you do join there is no pressure to attend events and meetings. We all have other commitments that often mean we cannot attend get togethers. That is absolutely fine. Round Table is a way to unwind and forget other pressures, not to give anyone more stress.</p>
                         <p class="lead fw-normal mb-4">So, give us a call or send us a message. We look forward to seeing you soon.</p>

@@ -9,7 +9,7 @@
             <div class="row gx-5 align-items-center justify-content-center">
                 <div class="col-lg-8 col-xl-7 col-xxl-6">
                     <div class="text-center text-xl-start">
-                        <h1 class="display-5 fw-bolder mb-2">Hoylake and West Kirby Round Table</h1>
+                        <h1 class="display-5 fw-bolder mb-2">North Wirral Round Table</h1>
                         <p class="lead fw-normal mb-4">We are your local community group for men aged 18-45. We organise social events and activities, fundraise in the community and support local causes.</p>
                         <div class="d-grid gap-3 d-sm-flex justify-content-sm-center justify-content-xl-start">
                             <a class="btn btn-primary btn-lg px-4 me-sm-3" href="{{ $page->links->join }}">Join Us</a>
@@ -38,7 +38,7 @@
                 <div class="col-lg-6"><img class="img-fluid rounded mb-5 mb-lg-0" src="/assets/images/photos/walk-2020-600x400.jpg" alt="..." /></div>
                 <div class="col-lg-6">
                     <h2 class="fw-bolder">About us</h2>
-                    <p class="lead fw-normal text-muted mb-4">Hoylake and West Kirby Round Table is your local branch of this national organisation, which fundraises for local good causes. We are a group of young men aged 18-45 in the Hoylake and West Kirby area of Wirral. As well as fundraising and helping the local community we meet regularly for social events and activities.</p>
+                    <p class="lead fw-normal text-muted mb-4">North Wirral Round Table is your local branch of this national organisation, which fundraises for local good causes. We are a group of young men aged 18-45 in the northern part of Wirral. As well as fundraising and helping the local community we meet regularly for social events and activities.</p>
                     <a class="btn btn-primary btn-lg px-4 me-sm-3" href="{{ $page->links->about }}">More about us</a>
                 </div>
             </div>
@@ -51,7 +51,7 @@
                 <div class="col-lg-6 order-first order-lg-last"><img class="img-fluid rounded mb-5 mb-lg-0" src="/assets/images/photos/axe-throwing-600x400.jpg" alt="..." /></div>
                 <div class="col-lg-6">
                     <h2 class="fw-bolder">Join us</h2>
-                    <p class="lead fw-normal text-muted mb-4">We are an open organisation that always welcomes new members from all walks of life. If you are a male aged 18-45 in the Hoylake and West Kirby area then why not find out more about what we're about? It could be the best decision you make today!</p>
+                    <p class="lead fw-normal text-muted mb-4">We are an open organisation that always welcomes new members from all walks of life. If you are a male aged 18-45 in the North Wirral area then why not find out more about what we're about? It could be the best decision you make today!</p>
                     <a class="btn btn-primary btn-lg px-4 me-sm-3" href="{{ $page->links->join }}">Learn more</a>
                 </div>
             </div>
@@ -64,7 +64,7 @@
                 <div class="col-lg-6"><img class="img-fluid rounded mb-5 mb-lg-0" src="/assets/images/photos/together-600x400.jpg" alt="..." /></div>
                 <div class="col-lg-6">
                     <h2 class="fw-bolder">Apply for funding</h2>
-                    <p class="lead fw-normal text-muted mb-4">We are always looking for worthy local causes to contribute to. If you feel that Hoylake and West Kirby Round Table could support you or a cause with which you are affiliated then we'd love to hear from you.</p>
+                    <p class="lead fw-normal text-muted mb-4">We are always looking for worthy local causes to contribute to. If you feel that North Wirral Round Table could support you or a cause with which you are affiliated then we'd love to hear from you.</p>
                     <a class="btn btn-primary btn-lg px-4 me-sm-3" href="{{ $page->links->funding }}">Apply for funding</a>
                 </div>
             </div>
