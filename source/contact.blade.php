@@ -1,6 +1,7 @@
 @extends('_layouts.main')
 
 @section('title', 'Contact')
+@section('description', 'Get in touch with North Wirral Round Table. We look forward to hearing from you.')
 
 @section('body')
     <!-- Header-->

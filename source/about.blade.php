@@ -1,6 +1,7 @@
 @extends('_layouts.main')
 
 @section('title', 'About')
+@section('description', 'North Wirral Round Table is your local branch of this national organisation which fundraises for local good causes. Our mission is to have fun and challenge ourselves while supporting the wider Wirral community.')
 
 @section('body')
     <!-- Header-->

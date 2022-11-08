@@ -1,6 +1,7 @@
 @extends('_layouts.main')
 
 @section('title', 'Santa Sleigh')
+@section('description', 'Every year we bring our famous Santa Sleigh to the streets of Greasby, Hoylake, Newton, Meols, West Kirby, and beyond to raise money for good causes and to bring the magic of Christmas to everyone in our community.')
 
 @section('body')
     <!-- Header-->
