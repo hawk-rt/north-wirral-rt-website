@@ -24,14 +24,15 @@
             <div class="row gx-5 justify-content-center">
                 <div class="col-lg-8 col-xl-6">
                     <div class="text-center">
-                        <h2 class="fw-bolder">Santa's routes</h2>
-                        <p class="lead fw-normal text-muted mb-5">Santa is taking a break right now but below are the routes that Santa will be taking at Christmas in 2022.</p>
-                        <p class="lead fw-normal text-muted mb-5">Please note these routes are subject to change so keep an eye on our Facebook page for any updates!</p>
+                        <h2 class="fw-bolder">2022 Santa sleigh routes</h2>
+                        <p class="lead fw-normal text-muted mb-5">Santa is busy planning his routes for Christmas 2022.</p>
+                        <p class="lead fw-normal text-muted mb-5">Routes will be published here soon. Keep an eye on our Facebook page for updates.</p>
                     </div>
                 </div>
             </div>
             <div class="row gx-5">
                 @foreach($santaRoutes as $route)
+                <?php /*
                     <div class="col-lg-4 mb-5">
                         <div class="card h-100 shadow border-0">
                             <img class="card-img-top" src="/assets/images/santa-routes/{{ $route->image }}" alt="{{ $route->title }} Santa Sleigh Route" />
@@ -54,6 +55,7 @@
                             </div>
                         </div>
                     </div>
+                    */ ?>
                 @endforeach
             </div>
         </div>
