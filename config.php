@@ -11,6 +11,7 @@ return [
         'funding' => '/apply-for-funding',
         'santa' => '/santa-sleigh',
         'contact' => '/contact',
+        'donate' => '/donate',
     ],
     'active' => function ($page, $path) {
         return $page->getPath() == $path ? 'active' : '';
