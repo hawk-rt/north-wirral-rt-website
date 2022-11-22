@@ -17,6 +17,7 @@
                 <li class="nav-item"><a class="nav-link {{ $page->active($page->links->join) }}" href="{{ $page->links->join }}">Join Us</a></li>
                 <li class="nav-item"><a class="nav-link {{ $page->active($page->links->funding) }}" href="{{ $page->links->funding }}">Apply for Funding</a></li>
                 <li class="nav-item"><a class="nav-link {{ $page->active($page->links->santa) }}" href="{{ $page->links->santa }}">Santa Sleigh</a></li>
+                <li class="nav-item"><a class="nav-link {{ $page->active($page->links->donate) }}" href="{{ $page->links->donate }}">Donate</a></li>
                 <li class="nav-item"><a class="nav-link {{ $page->active($page->links->contact) }}" href="{{ $page->links->contact }}">Contact</a></li>
             </ul>
         </div>
