@@ -1,6 +1,4 @@
 {
-    "/js/main.js": "/js/main.js?id=eb9067a16189806fbce8b2fbfaa51f04",
-    "/css/main.css": "/css/main.css?id=73546b2dbffba40c5e2785f0eec64742",
-    "/css/fonts/bootstrap-icons.woff": "/css/fonts/bootstrap-icons.woff?id=b526f60332c8957f086194d7e92fc9cc",
-    "/css/fonts/bootstrap-icons.woff2": "/css/fonts/bootstrap-icons.woff2?id=ef95825f94f25ada9ad85af3faf45cae"
+    "/js/main.js": "/js/main.js",
+    "/css/main.css": "/css/main.css"
 }
