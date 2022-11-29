@@ -23,23 +23,25 @@
     <section class="py-2 py-md-5 bg-white">
         <div class="container px-3 px-md-5 my-4 my-md-5">
             <div class="row gx-5 justify-content-center">
-                <div class="col-lg-8 col-xl-6">
+                <div class="col-lg-8">
                     <div class="text-center">
-                        <h2 class="fw-bolder">2022 Santa sleigh routes</h2>
-                        <p class="lead fw-normal text-muted mb-5">Santa is busy planning his routes for Christmas 2022.</p>
-                        <p class="lead fw-normal text-muted mb-5">Routes will be published here soon. Keep an eye on our Facebook page for updates.</p>
+                        <h2 class="fw-bolder">Come out and meet Santa!</h2>
+                        <p class="lead fw-normal text-muted mb-2">Bigger and better than ever! We've teamed up with local groups to bring you more routes than ever and all supporting local good causes. </p>
+                        <p class="lead fw-normal text-muted mb-5">All of Santa's routes for Christmas 2022 are below. Keep an eye on our <a href="https://www.facebook.com/northwirralroundtable">Facebook page</a> for updates!</p>
                     </div>
                 </div>
             </div>
             <div class="row gx-5">
                 @foreach($santaRoutes as $route)
-                <?php /*
                     <div class="col-lg-4 mb-5">
                         <div class="card h-100 shadow border-0">
-                            <img class="card-img-top" src="/assets/images/santa-routes/{{ $route->image }}" alt="{{ $route->title }} Santa Sleigh Route" />
+                            <img class="card-img-top" src="/assets/images/santa-routes/{{ \Illuminate\Support\Str::replace('.jpg', '_thumb.jpg', $route->image) }}" alt="{{ $route->title }} Santa Sleigh Route" />
                             <div class="card-body p-4">
                                 @if ($route->pill)
                                 <div class="badge bg-primary bg-gradient rounded-pill mb-2">{{ $route->pill }}</div>
+                                @endif
+                                @if ($route->support)
+                                <div class="badge bg-secondary bg-gradient rounded-pill mb-2">{{ $route->support }}</div>
                                 @endif
                                 <a class="text-decoration-none link-dark stretched-link" href="#" data-bs-toggle="modal" data-bs-target="#santaRouteModal" data-bs-image="{{ $route->image }}" data-bs-title="{{ $route->title }}"><h5 class="card-title mb-3">{{ $route->title }}</h5></a>
                                 <p class="card-text mb-0">{{ $route->text }}</p>
@@ -48,15 +50,13 @@
                                 <div class="d-flex align-items-end justify-content-between">
                                     <div class="d-flex align-items-center">
                                         <div class="small">
-                                            <div class="fw-bold">Date: <span class="text-muted">{{ $route->date }}</span></div>
-
+                                            <div class="fw-bold">When: <span class="text-muted">{{ $route->date }}</span></div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    */ ?>
                 @endforeach
             </div>
         </div>
