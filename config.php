@@ -18,7 +18,9 @@ return [
     },
     'collections' => [
         'santaRoutes' => [
-            'path' => 'santaRoutes',
-        ]
+        ],
+        'redirects' => [
+            'path' => 'to/{filename}'
+        ],
     ],
 ];
