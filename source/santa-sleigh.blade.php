@@ -35,7 +35,9 @@
                 @foreach($santaRoutes as $route)
                     <div class="col-lg-4 mb-5">
                         <div class="card h-100 shadow border-0">
-                            <img class="card-img-top" src="/assets/images/santa-routes/{{ \Illuminate\Support\Str::replace('.jpg', '_thumb.jpg', $route->image) }}" alt="{{ $route->title }} Santa Sleigh Route" />
+                            <a class="text-decoration-none link-dark" href="#" data-bs-toggle="modal" data-bs-target="#santaRouteModal" data-bs-image="{{ $route->image }}" data-bs-title="{{ $route->title }}">
+                                <img class="card-img-top" src="/assets/images/santa-routes/{{ \Illuminate\Support\Str::replace('.jpg', '_thumb.jpg', $route->image) }}" alt="{{ $route->title }} Santa Sleigh Route" />
+                            </a>
                             <div class="card-body p-4">
                                 @if ($route->pill)
                                 <div class="badge bg-primary bg-gradient rounded-pill mb-2">{{ $route->pill }}</div>
@@ -43,7 +45,7 @@
                                 @if ($route->support)
                                 <div class="badge bg-secondary bg-gradient rounded-pill mb-2">{{ $route->support }}</div>
                                 @endif
-                                <a class="text-decoration-none link-dark stretched-link" href="#" data-bs-toggle="modal" data-bs-target="#santaRouteModal" data-bs-image="{{ $route->image }}" data-bs-title="{{ $route->title }}"><h5 class="card-title mb-3">{{ $route->title }}</h5></a>
+                                <h5 class="card-title mb-3">{{ $route->title }}</h5>
                                 <p class="card-text mb-0">{{ $route->text }}</p>
                             </div>
                             <div class="card-footer p-4 pt-0 bg-transparent border-top-0">
@@ -51,6 +53,7 @@
                                     <div class="d-flex align-items-center">
                                         <div class="small">
                                             <div class="fw-bold">When: <span class="text-muted">{{ $route->date }}</span></div>
+                                            <div class="fw-bold">RSVP on Facebook: <span class="text-muted"><a href="{{ $route->fb }}" target="_blank">{{ $route->fb }}</a></span></div>
                                         </div>
                                     </div>
                                 </div>
