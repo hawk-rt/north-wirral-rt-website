@@ -8,6 +8,7 @@ return [
     'links' => [
         'about' => '/about',
         'join' => '/join-us',
+        'events' => '/events',
         'funding' => '/apply-for-funding',
         'santa' => '/santa-sleigh',
         'contact' => '/contact',
