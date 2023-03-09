@@ -1,6 +1,7 @@
 @extends('_layouts.main')
 
 @section('title', 'Join Us')
+@section('description', 'Do you want to have fun, build lifelong friendships and meet like-minded men from your community? If the answer to these questions is YES, then Round Table is the perfect place for you.')
 
 @section('body')
     <!-- Header-->

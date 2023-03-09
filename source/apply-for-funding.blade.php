@@ -1,6 +1,7 @@
 @extends('_layouts.main')
 
 @section('title', 'Apply for funding')
+@section('description', 'We always welcome funding applications from local good causes. If you feel that North Wirral Round Table could support you or a cause with which you are affiliated then please use this form.')
 
 @section('body')
     <!-- Header-->

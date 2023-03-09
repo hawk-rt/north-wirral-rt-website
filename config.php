@@ -8,16 +8,21 @@ return [
     'links' => [
         'about' => '/about',
         'join' => '/join-us',
+        'events' => '/events',
         'funding' => '/apply-for-funding',
         'santa' => '/santa-sleigh',
         'contact' => '/contact',
+        'donate' => '/donate',
     ],
     'active' => function ($page, $path) {
         return $page->getPath() == $path ? 'active' : '';
     },
+    'showSantaRoutes' => false,
     'collections' => [
         'santaRoutes' => [
-            'path' => 'santaRoutes',
-        ]
+        ],
+        'redirects' => [
+            'path' => 'to/{filename}'
+        ],
     ],
 ];
