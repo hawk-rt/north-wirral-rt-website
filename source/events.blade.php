@@ -11,8 +11,9 @@
                 <div class="col-lg-8">
                     <div class="text-center">
                         <h1 class="fw-bolder mb-3">Upcoming events</h1>
-                        <p class="lead fw-normal text-muted mb-4">There is always something happening! We organise social and community events throughout the year and also attend events from other local Round Tables.</p>
-                        <p class="lead fw-normal text-muted mb-0">Bookmark this page or subscribe to the calendar below.</p>
+                        <p class="lead fw-normal text-muted mb-4">We organise social and community events throughout the year and also attend events from other local Round Tables. There is always something happening!</p>
+                        <p class="lead fw-normal text-muted mb-4">Bookmark this page or subscribe to the calendar below.</p>
+                        <p class="lead fw-normal text-muted mb-0">Newcomers are always welcome to all our events, <a class="link-dark" href="{{ $page->links->contact }}">contact us</a> to find out more!</p>
                     </div>
                 </div>
             </div>

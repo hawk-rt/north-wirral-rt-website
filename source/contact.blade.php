@@ -12,7 +12,7 @@
                     <div class="text-center">
                         <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3"><i class="bi bi-envelope"></i></div>
                         <h1 class="fw-bolder">Get in touch</h1>
-                        <p class="lead fw-normal text-muted my-4">Email us <a href="mailto:hawk@roundtable.org.uk">hawk@roundtable.org.uk</a> or use the form below to get in touch.</p>
+                        <p class="lead fw-normal text-muted my-4">Drop us a message on <a href="https://www.facebook.com/northwirralroundtable">Facebook</a> or use the form below to get in touch.</p>
                         <p class="lead fw-normal text-muted mb-4">Looking for funding? Use our <a href="{{ $page->links->funding }}">funding application form</a>.</p>
                         <p class="lead fw-normal text-muted mb-0">We look forward to hearing from you.</p>
                     </div>
