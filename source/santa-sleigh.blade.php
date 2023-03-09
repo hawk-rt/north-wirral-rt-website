@@ -19,6 +19,7 @@
             </div>
         </div>
     </header>
+    @if($page->showSantaRoutes)
     <!-- Santa sleigh routes section-->
     <section class="py-2 py-md-5 bg-white">
         <div class="container px-3 px-md-5 my-4 my-md-5">
@@ -77,4 +78,18 @@
             </div>
         </div>
     </div>
+    @else
+        <section class="py-2 py-md-5 bg-white">
+            <div class="container px-3 px-md-5 my-4 my-md-5">
+                <div class="row gx-5 justify-content-center">
+                    <div class="col-lg-8">
+                        <div class="text-center">
+                            <h2 class="fw-bolder">Santa is having a break!</h2>
+                            <p class="lead fw-normal text-muted mb-2">Santa, Rudolph and all the elves are enjoying a well-deserved break at the moment. However, it won't be long until they begin to plan the routes for Christmas 2023! Keep an eye on our <a href="https://www.facebook.com/northwirralroundtable">Facebook page</a> for updates.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    @endif
 @endsection
