@@ -1,5 +1,7 @@
 ---
-title: Wallasey Mill Lane
+extends: _layouts.route
+slug: wallasey-mill-lane
+name: Wallasey Mill Lane
 support: Age UK Wirral
 image: 2023-Wallasey-Mill-Lane.png
 date: Thursday 7 December 2023

@@ -1,5 +1,7 @@
 ---
-title: Millhouse Lane
+extends: _layouts.route
+slug: millhouse-lane
+name: Millhouse Lane
 support: Involve Northwest
 image: 2023-Millhouse-Lane.png
 date: Wednesday 6 December 2023

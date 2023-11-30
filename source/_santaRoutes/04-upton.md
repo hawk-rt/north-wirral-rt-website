@@ -1,5 +1,7 @@
 ---
-title: Upton
+extends: _layouts.route
+slug: upton
+name: Upton
 support: Paul Lavelle Foundation
 image: 2023-Upton.png
 date: Monday 4 December 2023

@@ -20,6 +20,7 @@ return [
     'showSantaRoutes' => true,
     'collections' => [
         'santaRoutes' => [
+            'path' => 'santa-sleigh/2023/{slug}'
         ],
         'redirects' => [
             'path' => 'to/{filename}'

@@ -12,22 +12,6 @@ import 'bootstrap/js/dist/modal';
 // import 'bootstrap/js/dist/toast';
 // import 'bootstrap/js/dist/tooltip';
 
-var santaRouteModal = document.getElementById('santaRouteModal')
-santaRouteModal && santaRouteModal.addEventListener('show.bs.modal', function (event) {
-    // Button that triggered the modal
-    var button = event.relatedTarget
-    // Extract info from data-bs-* attributes
-    var image = button.getAttribute('data-bs-image')
-    var title = button.getAttribute('data-bs-title')
-    // Update the modal's content.
-    var modalTitle = santaRouteModal.querySelector('.modal-title')
-    var modalImage = santaRouteModal.querySelector('.modal-body img')
-
-    modalTitle.textContent = 'Santa Sleigh Route: ' + title
-    modalImage.alt = 'Santa Sleigh Route: ' + title
-    modalImage.src = '/assets/images/santa-routes/full/' + image
-});
-
 // Example starter JavaScript for disabling form submissions if there are invalid fields
 (function () {
     'use strict'

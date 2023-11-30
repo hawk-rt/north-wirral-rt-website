@@ -1,5 +1,7 @@
 ---
-title: Wallasey Poulton
+extends: _layouts.route
+slug: wallasey-poulton
+name: Wallasey Poulton
 support: Paul Lavelle Foundation
 image: 2023-Wallasey-Poulton.png
 date: Thursday 21 December 2023

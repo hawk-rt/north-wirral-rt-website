@@ -1,5 +1,7 @@
 ---
-title: West Kirby Avenues (Greenbank)
+extends: _layouts.route
+slug: west-kirby-avenues
+name: West Kirby Avenues (Greenbank)
 support: Black Horse Hill School
 image: 2023-West-Kirby-Avenues.png
 date: Tuesday 19 December 2023

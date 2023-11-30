@@ -1,5 +1,7 @@
 ---
-title: Hoylake 1
+extends: _layouts.route
+slug: hoylake-1
+name: Hoylake 1
 support: The Life Tree
 image: 2023-Hoylake-1.png
 date: Monday 11 December 2023

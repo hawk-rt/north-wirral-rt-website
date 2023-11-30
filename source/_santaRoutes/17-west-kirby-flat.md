@@ -1,5 +1,7 @@
 ---
-title: West Kirby Flat
+extends: _layouts.route
+slug: west-kirby-flat
+name: West Kirby Flat
 support: 
 image: 2023-West-Kirby-Flat.png
 date: Sunday 17 December 2023

@@ -35,42 +35,28 @@
             <div class="row gx-5">
                 @foreach($santaRoutes as $route)
                     <div class="col-lg-4 mb-5">
-                        <div class="card h-100 shadow border-0">
-                            <a class="text-decoration-none link-dark" href="#" data-bs-toggle="modal" data-bs-target="#santaRouteModal" data-bs-image="{{ $route->image }}" data-bs-title="{{ $route->title }} - {{ $route->date }}">
-                                <img class="card-img-top" src="/assets/images/santa-routes/thumbs/{{ $route->image }}" alt="{{ $route->title }} Santa Sleigh Route" />
-                            </a>
-                            <div class="card-body p-4">
-                                <h6 class="card-subtitle mb-2 text-muted">{{ $route->date }}</h6>
-                                <h5 class="card-title mb-3">{{ $route->title }}</h5>
-                                <p class="card-text mb-0">{{ $route->text }}</p>
+                        <a class="text-decoration-none link-dark" href="{{ $route->getPath() }}">                        <div class="card h-100 shadow border-0">
+                                <img class="card-img-top" src="/assets/images/santa-routes/thumbs/{{ $route->image }}" alt="{{ $route->name }} Santa Sleigh Route" />
+                                <div class="card-body p-4">
+                                    <h6 class="card-subtitle mb-2 text-muted">{{ $route->date }}</h6>
+                                    <h5 class="card-title mb-3">{{ $route->name }}</h5>
+                                    <p class="card-text mb-0">{{ $route->text }}</p>
+                                </div>
+                                <div class="card-footer p-4 pt-0 bg-transparent border-top-0">
+                                    @if ($route->time)
+                                        <div class="badge bg-danger bg-gradient rounded-pill mb-2">{{ $route->time }}</div>
+                                    @endif
+                                    @if ($route->support)
+                                        <div class="badge bg-success bg-gradient rounded-pill mb-2">{{ $route->support }}</div>
+                                    @endif
+                                </div>
                             </div>
-                            <div class="card-footer p-4 pt-0 bg-transparent border-top-0">
-                                @if ($route->time)
-                                    <div class="badge bg-danger bg-gradient rounded-pill mb-2">{{ $route->time }}</div>
-                                @endif
-                                @if ($route->support)
-                                    <div class="badge bg-success bg-gradient rounded-pill mb-2">{{ $route->support }}</div>
-                                @endif
-                            </div>
-                        </div>
+                        </a>
                     </div>
                 @endforeach
             </div>
         </div>
     </section>
-    <div class="modal fade" id="santaRouteModal" tabindex="-1" aria-labelledby="santaRouteModalLabel" aria-hidden="true">
-        <div class="modal-dialog modal-xl">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="santaRouteModalLabel">Santa Route</h5>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="modal-body">
-                    <img src="" class="img-fluid" alt="">
-                </div>
-            </div>
-        </div>
-    </div>
     @else
         <section class="py-2 py-md-5 bg-white">
             <div class="container px-3 px-md-5 my-4 my-md-5">

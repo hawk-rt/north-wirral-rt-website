@@ -1,5 +1,7 @@
 ---
-title: Greasby North
+extends: _layouts.route
+slug: greasby-north
+name: Greasby North
 support:
 image: 2023-Greasby-North.png
 date: Saturday 9 December 2023

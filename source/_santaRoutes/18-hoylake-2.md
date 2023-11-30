@@ -1,5 +1,7 @@
 ---
-title: Hoylake 2
+extends: _layouts.route
+slug: hoylake-2
+name: Hoylake 2
 support:
 image: 2023-Hoylake-2.png
 date: Monday 18 December 2023

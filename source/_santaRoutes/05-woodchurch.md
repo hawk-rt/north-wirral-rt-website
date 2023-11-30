@@ -1,5 +1,7 @@
 ---
-title: Woodchurch
+extends: _layouts.route
+slug: woodchurch
+name: Woodchurch
 support: Paul Lavelle Foundation
 image: 2023-Woodchurch.png
 date: Tuesday 5 December 2023

@@ -1,5 +1,7 @@
 ---
-title: Meols
+extends: _layouts.route
+slug: meols
+name: Meols
 support:
 image: 2023-Meols.png
 date: Sunday 10 December 2023

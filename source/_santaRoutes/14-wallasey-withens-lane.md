@@ -1,5 +1,7 @@
 ---
-title: Wallasey Withens Lane
+extends: _layouts.route
+slug: wallasey-withens-lane
+name: Wallasey Withens Lane
 support: Age UK Wirral
 image: 2023-Wallasey-Withens-Lane.png
 date: Thursday 14 December 2023

@@ -1,5 +1,7 @@
 ---
-title: Prenton
+extends: _layouts.route
+slug: prenton
+name: Prenton
 support: Paul Lavelle Foundation
 image: 2023-Prenton.png
 date: Tuesday 12 December 2023
