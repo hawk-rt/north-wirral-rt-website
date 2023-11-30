@@ -38,16 +38,13 @@
                         <a class="text-decoration-none link-dark" href="{{ $route->getPath() }}">                        <div class="card h-100 shadow border-0">
                                 <img class="card-img-top" src="/assets/images/santa-routes/thumbs/{{ $route->image }}" alt="{{ $route->name }} Santa Sleigh Route" />
                                 <div class="card-body p-4">
-                                    <h6 class="card-subtitle mb-2 text-muted">{{ $route->date }}</h6>
+                                    <h6 class="card-subtitle mb-2 text-muted">{{ $route->date }} ({{ $route->time }})</h6>
                                     <h5 class="card-title mb-3">{{ $route->name }}</h5>
                                     <p class="card-text mb-0">{{ $route->text }}</p>
                                 </div>
                                 <div class="card-footer p-4 pt-0 bg-transparent border-top-0">
-                                    @if ($route->time)
-                                        <div class="badge bg-danger bg-gradient rounded-pill mb-2">{{ $route->time }}</div>
-                                    @endif
                                     @if ($route->support)
-                                        <div class="badge bg-success bg-gradient rounded-pill mb-2">{{ $route->support }}</div>
+                                        <div class="badge bg-secondary bg-gradient rounded-pill mb-2">Supporting {{ $route->support }}</div>
                                     @endif
                                 </div>
                             </div>
