@@ -28,7 +28,7 @@
                     <div class="text-center">
                         <h2 class="fw-bolder">Come out and meet Santa!</h2>
                         <p class="lead fw-normal text-muted mb-2">Bigger and better than ever! We've teamed up with local groups to bring you more routes than ever and all supporting local good causes. </p>
-                        <p class="lead fw-normal text-muted mb-5">All of Santa's routes for Christmas 2022 are below. Keep an eye on our <a href="https://www.facebook.com/northwirralroundtable">Facebook page</a> for updates!</p>
+                        <p class="lead fw-normal text-muted mb-5">All of Santa's routes for Christmas 2023 are below. Keep an eye on our <a href="https://www.facebook.com/northwirralroundtable">Facebook page</a> for updates!</p>
                     </div>
                 </div>
             </div>
@@ -36,28 +36,21 @@
                 @foreach($santaRoutes as $route)
                     <div class="col-lg-4 mb-5">
                         <div class="card h-100 shadow border-0">
-                            <a class="text-decoration-none link-dark" href="#" data-bs-toggle="modal" data-bs-target="#santaRouteModal" data-bs-image="{{ $route->image }}" data-bs-title="{{ $route->title }}">
-                                <img class="card-img-top" src="/assets/images/santa-routes/{{ \Illuminate\Support\Str::replace('.jpg', '_thumb.jpg', $route->image) }}" alt="{{ $route->title }} Santa Sleigh Route" />
+                            <a class="text-decoration-none link-dark" href="#" data-bs-toggle="modal" data-bs-target="#santaRouteModal" data-bs-image="{{ $route->image }}" data-bs-title="{{ $route->title }} - {{ $route->date }}">
+                                <img class="card-img-top" src="/assets/images/santa-routes/thumbs/{{ $route->image }}" alt="{{ $route->title }} Santa Sleigh Route" />
                             </a>
                             <div class="card-body p-4">
-                                @if ($route->pill)
-                                <div class="badge bg-primary bg-gradient rounded-pill mb-2">{{ $route->pill }}</div>
-                                @endif
-                                @if ($route->support)
-                                <div class="badge bg-secondary bg-gradient rounded-pill mb-2">{{ $route->support }}</div>
-                                @endif
+                                <h6 class="card-subtitle mb-2 text-muted">{{ $route->date }}</h6>
                                 <h5 class="card-title mb-3">{{ $route->title }}</h5>
                                 <p class="card-text mb-0">{{ $route->text }}</p>
                             </div>
                             <div class="card-footer p-4 pt-0 bg-transparent border-top-0">
-                                <div class="d-flex align-items-end justify-content-between">
-                                    <div class="d-flex align-items-center">
-                                        <div class="small">
-                                            <div class="fw-bold">When: <span class="text-muted">{{ $route->date }}</span></div>
-                                            <div class="fw-bold">RSVP on Facebook: <span class="text-muted"><a href="{{ $route->fb }}" target="_blank">{{ $route->fb }}</a></span></div>
-                                        </div>
-                                    </div>
-                                </div>
+                                @if ($route->time)
+                                    <div class="badge bg-danger bg-gradient rounded-pill mb-2">{{ $route->time }}</div>
+                                @endif
+                                @if ($route->support)
+                                    <div class="badge bg-success bg-gradient rounded-pill mb-2">{{ $route->support }}</div>
+                                @endif
                             </div>
                         </div>
                     </div>
@@ -66,7 +59,7 @@
         </div>
     </section>
     <div class="modal fade" id="santaRouteModal" tabindex="-1" aria-labelledby="santaRouteModalLabel" aria-hidden="true">
-        <div class="modal-dialog modal-lg">
+        <div class="modal-dialog modal-xl">
             <div class="modal-content">
                 <div class="modal-header">
                     <h5 class="modal-title" id="santaRouteModalLabel">Santa Route</h5>

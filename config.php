@@ -17,7 +17,7 @@ return [
     'active' => function ($page, $path) {
         return $page->getPath() == $path ? 'active' : '';
     },
-    'showSantaRoutes' => false,
+    'showSantaRoutes' => true,
     'collections' => [
         'santaRoutes' => [
         ],

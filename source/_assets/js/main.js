@@ -23,9 +23,9 @@ santaRouteModal && santaRouteModal.addEventListener('show.bs.modal', function (e
     var modalTitle = santaRouteModal.querySelector('.modal-title')
     var modalImage = santaRouteModal.querySelector('.modal-body img')
 
-    modalTitle.textContent = title + ' Santa Sleigh Route'
-    modalImage.alt = title + ' Santa Sleigh Route'
-    modalImage.src = '/assets/images/santa-routes/' + image
+    modalTitle.textContent = 'Santa Sleigh Route: ' + title
+    modalImage.alt = 'Santa Sleigh Route: ' + title
+    modalImage.src = '/assets/images/santa-routes/full/' + image
 });
 
 // Example starter JavaScript for disabling form submissions if there are invalid fields
