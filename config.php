@@ -23,7 +23,7 @@ return [
             'path' => 'santa-sleigh/2023/{slug}'
         ],
         'redirects' => [
-            'path' => 'to/{filename}'
+            'path' => 'go/{filename}'
         ],
     ],
 ];
