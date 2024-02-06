@@ -28,8 +28,8 @@
                     <script type="text/javascript" src="https://feed.mikle.com/js/fw-loader.js" preloader-text="Loading" data-fw-param="160209/"></script>
                     <!-- end feedwind code -->
                     <div class="text-center mt-2 mb-0">
-                        <a class="btn btn-primary btn-lg mt-2" href="https://calendar.google.com/calendar/embed?src=f486b562a6046a1f3d30550a1aaf9168e58931045d658174532a6f64199a8ede@group.calendar.google.com" target="_blank">View the full calendar</a>
-                        <a class="btn btn-primary btn-lg mt-2" href="https://calendar.google.com/calendar/u/0?cid=ZjQ4NmI1NjJhNjA0NmExZjNkMzA1NTBhMWFhZjkxNjhlNTg5MzEwNDVkNjU4MTc0NTMyYTZmNjQxOTlhOGVkZUBncm91cC5jYWxlbmRhci5nb29nbGUuY29t" target="_blank">Subscribe to the calendar</a>
+                        <a class="btn btn-primary btn-lg mt-2" href="https://calendar.google.com/calendar/embed?src=311%40roundtable.org.uk&ctz=Europe%2FLondon" target="_blank">View the full calendar</a>
+                        <a class="btn btn-primary btn-lg mt-2" href="https://calendar.google.com/calendar/u/3?cid=MzExQHJvdW5kdGFibGUub3JnLnVr" target="_blank">Subscribe to the calendar</a>
                     </div>
                 </div>
             </div>
