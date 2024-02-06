@@ -19,9 +19,9 @@ return [
     },
     'showSantaRoutes' => false,
     'collections' => [
-        'santaRoutes' => [
-            'path' => 'santa-sleigh/2023/{slug}'
-        ],
+//        'santaRoutes' => [
+//            'path' => 'santa-sleigh/2023/{slug}'
+//        ],
         'redirects' => [
             'path' => 'go/{filename}'
         ],
